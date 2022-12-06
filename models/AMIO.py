@@ -12,7 +12,8 @@ import pdb
 from models.subNets.AlignNets import AlignSubNet
 from models.multiTask import *
 
-pretrained_weights = '/media/dn/newdisk/tools/bert-base-uncased/'
+pretrained_weights = '/Users/mac/Desktop/ACL22-sarcasm-code/bert-base-uncased'
+# pretrained_weights = '/media/dn/newdisk/tools/bert-base-uncased/'
 
 __all__ = ['AMIO']
 

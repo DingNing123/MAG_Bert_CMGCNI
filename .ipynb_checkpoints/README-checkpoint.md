@@ -1,0 +1,92 @@
+![Python 3.7](https://www.python.org/static/img/python-logo@2x.png)
+
+## MAG_Bert_ULGM
+> Pytorch implementation for codes in A Multimodal Irony Recognition Framework With Self-Supervise Multi-task Learning.
+
+本项目参考了下面的论文和代码,The following papers and codes are referred to in this project
+
+
+[Learning Modality-Specific Representations with Self-Supervised Multi-Task Learning for Multimodal Sentiment Analysis (AAAI2021)](https://arxiv.org/abs/2102.04830). Please see their another repo [MMSA](https://github.com/thuiar/MMSA) for more details, which is a scalable framework for MSA.
+
+### Model
+
+![model](assets/MainModel.png)
+
+### Usage
+
+ ./0428.sh
+
+### 6.生成各种可视化需要的npz文件Generate the npz files needed for visualization
+ 1. tsne
+ 2. confusion_matrix
+
+### 模型说明：
+ours_v1 : Self_MM
+ours_v2 : mag_bert
+
+其他几种模型的源代码参考项目mmsa
+
+
+### 数据预处理 2022年10月10日 测试代码
+转移了ubuntu18.04 -> macBook 需要从头梳理数据运行代码 
+ 先生成标签
+
+
+python data/1.DataPreForMustard.py --mode runIndepResnet152
+
+
+[MUStARD](https://github.com/soujanyaporia/MUStARD)
+
+[MMSA](https://github.com/thuiar/MMSA)
+
+# 1.生成标签 generate  label about train ,valid and test split
+ python data/1.DataPreForMustard.py --mode genLabelIndep
+ 
+ 
+
+
+## 1.1 gen_csv.py 
+ generate independent id of train and test train_index5.csv test_index5.csv
+
+
+## 1.2 read_split_indices.py
+ 
+ dependent 5折交叉 speaker-dependent train and test index 
+
+
+ # 2 pieces of data
+ train:
+ 1_70
+ 1_276
+ test:
+ 1_60
+ 1_80
+
+ label_indep.csv  记录了文本 和 训练与测试集的划分 
+ 
+# 2.save_frames.py 将视频拆分为帧
+
+# 3.生成./featuresIndepResnet152.pkl 
+(t18) mac@MacdeMacBook-Pro MAG_Bert_ULGM % python -m pdb data/1.DataPreForMustard.py --mode runIndepResnet152
+
+# 4.read_features.py
+ 读取./featuresIndepResnet152.pkl
+
+
+# 5.requirements
+
+transformers==4.6.1 
+
+安装这个版本  其他版本可能有问题 
+
+wandb==0.12.11
+
+因为当前目录有wandb 因此import不会出错 而在init会出问题 。 
+
+关闭wandb 上传网络 
+
+wandb offline
+
+
+
+

@@ -41,7 +41,8 @@ class ConfigRegression():
 
         # dingning 0326 mode resnet152
         if args.ablationType == 'indep_resnet' :
-            dataArgs['unaligned']['dataPath'] = '/media/dn/newdisk/datasets/mmsd_raw_data/Self-MM-Processed/featuresIndepResnet152.pkl'
+            dataArgs['unaligned']['dataPath'] = 'featuresIndepResnet152_magbert.pkl'
+            # dataArgs['unaligned']['dataPath'] = '/media/dn/newdisk/datasets/mmsd_raw_data/Self-MM-Processed/featuresIndepResnet152.pkl'
             # dingning 0326 update visual feature dim 709 -> 2048 
             dataArgs['unaligned']['feature_dims'] = (768,33,2048)
 

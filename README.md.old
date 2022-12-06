@@ -1,7 +1,12 @@
-![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
+![Python 3.7](https://www.python.org/static/img/python-logo@2x.png)
 
-## SELF-MM
-> Pytorch implementation for codes in [Learning Modality-Specific Representations with Self-Supervised Multi-Task Learning for Multimodal Sentiment Analysis (AAAI2021)](https://arxiv.org/abs/2102.04830). Please see our another repo [MMSA](https://github.com/thuiar/MMSA) for more details, which is a scalable framework for MSA.
+## MAG_Bert_ULGM
+> Pytorch implementation for codes in A Multimodal Irony Recognition Framework With Self-Supervise Multi-task Learning.
+
+本项目参考了下面的论文和代码,The following papers and codes are referred to in this project
+
+
+[Learning Modality-Specific Representations with Self-Supervised Multi-Task Learning for Multimodal Sentiment Analysis (AAAI2021)](https://arxiv.org/abs/2102.04830). Please see their another repo [MMSA](https://github.com/thuiar/MMSA) for more details, which is a scalable framework for MSA.
 
 ### Model
 
@@ -9,81 +14,82 @@
 
 ### Usage
 
-1. Datasets and pre-trained berts
+ ./0428.sh
 
-Download dataset features and pre-trained berts from the following links.
+### 6.生成各种可视化需要的npz文件Generate the npz files needed for visualization
+ 1. tsne
+ 2. confusion_matrix
 
-- [Baidu Cloud Drive](https://pan.baidu.com/s/1oksuDEkkd3vGg2oBMBxiVw) with code: `ctgs`
-- [Google Cloud Drive](https://drive.google.com/drive/folders/1E5kojBirtd5VbfHsFp6FYWkQunk73Nsv?usp=sharing)
+### 模型说明：
+ours_v1 : Self_MM
+ours_v2 : mag_bert
 
-For all features, you can use `SHA-1 Hash Value` to check the consistency.
-> `MOSI/unaligned_50.pkl`: `5da0b8440fc5a7c3a457859af27458beb993e088`  
-> `MOSI/aligned_50.pkl`: `5c62b896619a334a7104c8bef05d82b05272c71c`  
-> `MOSEI/unaligned_50.pkl`: `db3e2cff4d706a88ee156981c2100975513d4610`  
-> `MOSEI/aligned_50.pkl`: `ef49589349bc1c2bc252ccc0d4657a755c92a056`  
-> `SIMS/unaligned_39.pkl`: `a00c73e92f66896403c09dbad63e242d5af756f8`  
+其他几种模型的源代码参考项目mmsa
 
-Due to the size limitations, the MOSEI features and SIMS raw videos are available in `Baidu Cloud Drive` only. All dataset features are organized as:
 
-```python
-{
-    "train": {
-        "raw_text": [],
-        "audio": [],
-        "vision": [],
-        "id": [], # [video_id$_$clip_id, ..., ...]
-        "text": [],
-        "text_bert": [],
-        "audio_lengths": [],
-        "vision_lengths": [],
-        "annotations": [],
-        "classification_labels": [], # Negative(< 0), Neutral(0), Positive(> 0)
-        "regression_labels": []
-    },
-    "valid": {***}, # same as the "train" 
-    "test": {***}, # same as the "train"
-}
-```
+### 数据预处理 2022年10月10日 测试代码
+转移了ubuntu18.04 -> macBook 需要从头梳理数据运行代码 
+ 先生成标签
 
-For MOSI and MOSEI, the pre-extracted text features are from BERT, different from the original glove features in the [CMU-Multimodal-SDK](http://immortal.multicomp.cs.cmu.edu/raw_datasets/processed_data/).
 
-For SIMS, if you want to extract features from raw videos, you need to install [Openface Toolkits](https://github.com/TadasBaltrusaitis/OpenFace/wiki) first, and then refer our codes in the `data/DataPre.py`.
+python data/1.DataPreForMustard.py --mode runIndepResnet152
 
-```
-python data/DataPre.py --data_dir [path_to_Dataset] --language ** --openface2Path  [path_to_FeatureExtraction]
-```
 
-For bert models, you also can download [Bert-Base, Chinese](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip) from [Google-Bert](https://github.com/google-research/bert). And then, convert tensorflow into pytorch using [transformers-cli](https://huggingface.co/transformers/converting_tensorflow_models.html)  
+[MUStARD](https://github.com/soujanyaporia/MUStARD)
 
-2. Clone this repo and install requirements.
-```
-git clone https://github.com/thuiar/Self-MM
-cd Self-MM
-conda create --name self_mm python=3.7
-source activate self_mm
-pip install -r requirements.txt
-```
+[MMSA](https://github.com/thuiar/MMSA)
 
-3. Make some changes
-Modify the `config/config_tune.py` and `config/config_regression.py` to update dataset pathes.
+# 1.生成标签 generate  label about train ,valid and test split
+ python data/1.DataPreForMustard.py --mode genLabelIndep
+ 
+ 
 
-4. Run codes
-```
-python run.py --modelName self_mm --datasetName mosi
-```
 
-### Results
+## 1.1 gen_csv.py 
+ generate independent id of train and test train_index5.csv test_index5.csv
 
-> Detailed results are shown in [MMSA](https://github.com/thuiar/MMSA) > [results/result-stat.md](https://github.com/thuiar/MMSA/blob/master/results/result-stat.md). 
 
-### Paper
----
-Please cite our paper if you find our work useful for your research:
-```
-@inproceedings{yu2021le,
-  title={Learning Modality-Specific Representations with Self-Supervised Multi-Task Learning for Multimodal Sentiment Analysis},
-  author={Yu, Wenmeng and Xu, Hua and Ziqi, Yuan and Jiele, Wu},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  year={2021}
-}
-```
+## 1.2 read_split_indices.py
+ 
+ dependent 5折交叉 speaker-dependent train and test index 
+
+
+ # 2 pieces of data
+ train:
+ 1_70
+ 1_276
+ test:
+ 1_60
+ 1_80
+
+ label_indep.csv  记录了文本 和 训练与测试集的划分 
+ 
+# 2.save_frames.py 将视频拆分为帧
+
+# 3.生成./featuresIndepResnet152.pkl 
+(t18) mac@MacdeMacBook-Pro MAG_Bert_ULGM % python -m pdb data/1.DataPreForMustard.py --mode runIndepResnet152
+
+# 4.read_features.py
+ 读取./featuresIndepResnet152.pkl
+
+
+# 5.requirements
+
+transformers==4.6.1 
+
+安装这个版本  其他版本可能有问题 
+
+wandb==0.12.11
+
+因为当前目录有wandb 因此import不会出错 而在init会出问题 。 
+
+关闭wandb 上传网络 
+
+wandb offline
+
+brew install libffi 
+ln -s libffi.8.dylib libffi.7.dylib
+/usr/local/opt/libffi/lib
+export LD_LIBRARY_PATH='/usr/local/opt/libffi/lib'
+
+

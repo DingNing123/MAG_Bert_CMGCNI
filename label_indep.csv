@@ -1,0 +1,827 @@
+video_id,clip_id,text,label,annotation,mode,label_by
+1_70,0,i don t think i ll be able to stop thinking about it,1.0,Positive,train,0
+1_276,0,yeah my parents felt that naming me leonard and putting me in advanced placement classes wasn t getting me beaten up enough,1.0,Positive,train,0
+1_340,0,sure cut the foreigner in half there s a billion more where he came from,1.0,Positive,train,0
+1_410,0,leonard may i present live from new delhi dr and mrs v m koothrappali,-1.0,Negative,train,0
+1_430,0,i ve got some feelers out in the meantime listen to this,-1.0,Negative,train,0
+1_533,0,technically yes but if you ll notice it s reversible,-1.0,Negative,train,0
+1_537,0,oh you know that is so weird that yours came and mine didn t,1.0,Positive,train,0
+1_1001,0,what else sell it on ebay as slightly used,-1.0,Negative,train,0
+1_1185,0,i think tonight was a very good start,-1.0,Negative,train,0
+1_1470,0,i don t know it just died i m getting a bunch of static,-1.0,Negative,train,0
+1_1627,0,what do you think i did i discreetly slipped off the other earring put it in my pocket and then got the hell out of there,-1.0,Negative,train,0
+1_1638,0,the blunt instrument that will be the focus of my murder trial,1.0,Positive,train,0
+1_1666,0,would it work if i just punched you in the face,-1.0,Negative,train,0
+1_1678,0,answering the question once and for all why wolowitz bailed out of medical school,-1.0,Negative,train,0
+1_1732,0,you were right your larynx is terribly inflamed i ve never seen anything like it,1.0,Positive,train,0
+1_1798,0,if you don t like this stuff let s go next door and build her a bear,1.0,Positive,train,0
+1_1803,0,- maybe i heard you wrong a lot of words sound like yoga,1.0,Positive,train,0
+1_1931,0,why don t you just lie down on the floor and swim there,1.0,Positive,train,0
+1_1973,0,i hope i m a waitress at the cheesecake factory for my whole life,1.0,Positive,train,0
+1_1987,0,when i didn t pay my bill the department of water and power thought i would enjoy the ambience,1.0,Positive,train,0
+1_2075,0,there s no hurry tell them more about their secret love for each other,-1.0,Negative,train,0
+1_2119,0,kind of makes you feel more alive doesn t it,1.0,Positive,train,0
+1_2216,0,excuse me but what about me why don t i get a shot,-1.0,Negative,train,0
+1_2361,0,thank you so much for giving me the opportunity to help,-1.0,Negative,train,0
+1_2420,0,you know this can go on all night why don t you just come with us,-1.0,Negative,train,0
+1_2464,0,you think coffee means coffee that is so sweet,1.0,Positive,train,0
+1_2614,0,hardly a day goes by when i don t think about it,1.0,Positive,train,0
+1_2616,0,sure maybe a tableau of me trying to pummel you to death,1.0,Positive,train,0
+1_2664,0,terrific it s just that i don t think penny wants me to go,-1.0,Negative,train,0
+1_2669,0,what did you mean when you said you were going to miss me,-1.0,Negative,train,0
+1_2778,0,ooh big talk from a man who was once treed by a chicken,1.0,Positive,train,0
+1_2792,0,no i mean we can always go back to being friends,-1.0,Negative,train,0
+1_2830,0,no i m behind on my wiki-reading i m kind of on a john grisham kick right now,-1.0,Negative,train,0
+1_2837,0,- chocolate - no i don t want any chocolate,-1.0,Negative,train,0
+1_3177,0,not a great movie but look at that beautiful desert,-1.0,Negative,train,0
+1_3204,0,right that was so good sweety and meaty at the same time,-1.0,Negative,train,0
+1_3256,0,i m sorry fiddling with yourself in the bathtub is a real class act,1.0,Positive,train,0
+1_3259,0,no i mean princess leia of course i mean bernadette she s a wonderful girl and she really likes you,1.0,Positive,train,0
+1_3348,0,raj you should ve seen leonard s experiment the interference pattern was so cool when the electron beam was on,-1.0,Negative,train,0
+1_3371,0,i was going to ask leonard to do it but he seemed a bit emotionally unstable and you don t want someone like that operating heavy machinery,-1.0,Negative,train,0
+1_3419,0,oh we don t need to talk about that anymore leonard covered it pretty well in the car,1.0,Positive,train,0
+1_3476,0,don t you think looking for a new city to live in is a bit of an overreaction,-1.0,Negative,train,0
+1_3573,0,well i always figured it was to study us discover our weaknesses and report back to your alien overlords,1.0,Positive,train,0
+1_3649,0,oh no no i said i m inviting you to come with me to stan lee s house,-1.0,Negative,train,0
+1_3660,0,there a new girlfriend in there cause you might need one,1.0,Positive,train,0
+1_3707,0,oh i m so glad you asked it like that you,1.0,Positive,train,0
+1_3766,0,can we please talk about something else maybe something vaguely related to life as we know it on this planet,1.0,Positive,train,0
+1_3911,0,that s very thoughtful but i think i ll finish my coffee first,-1.0,Negative,train,0
+1_4145,0,a lot of people are working on that research so what is all this,1.0,Positive,train,0
+1_4477,0,i just want to ask you a few questions about howard wolowitz,-1.0,Negative,train,0
+1_4544,0,yes in fact our menses are synchronized penny bernadette tells me you re planning a girls night,-1.0,Negative,train,0
+1_4552,0,so anyway to make a long story short turns out i have an unusually firm cervix,-1.0,Negative,train,0
+1_4576,0,bernadette dared me to tell a dirty story the miller s tale by chaucer is the dirtiest story i know it would have been hidden in sock drawers if people in the 14th century had worn socks,-1.0,Negative,train,0
+1_4639,0,well i m just glad you finally found yourself a keeper,-1.0,Negative,train,0
+1_4789,0,i don t know somebody bigger and yeah sure why not you,1.0,Positive,train,0
+1_4949,0,certainly i d like to raise two points number one i think they <i>are</i> talking about penises and number two these mimosas are kicking my little brown ass,-1.0,Negative,train,0
+1_4967,0,we might be starting to zero in on your problem,1.0,Positive,train,0
+1_5109,0,yeah but you were just sleeping because i forboded you to have sex,-1.0,Negative,train,0
+1_5134,0,oh yeah yeah it s real great today i drove to van nuys for an audition i thought was going to be for a cat food commercial turned out to be porn,1.0,Positive,train,0
+1_5166,0,yeah it s a great time to be alive isn t it,1.0,Positive,train,0
+1_5169,0,i m not saying that you re not fun you re the most fun person i know,-1.0,Negative,train,0
+1_5211,0,saying that while holding a snowflake is a bit heavy-handed don t you think,1.0,Positive,train,0
+1_5212,0,i m sorry sheldon bought a loom and learned how to weave,-1.0,Negative,train,0
+1_5496,0,okay amy you re being silly i m not concerned about who hangs out with who and i certainly don t have a problem with leonard s new girlfriend who wears way too much makeup ooh these are cute of course if i buy them i ll have to rent my womb out to a gay couple,1.0,Positive,train,0
+1_5627,0,your girlfriend and your ex-girlfriend are hanging out together oh yeah that can only be good for you,1.0,Positive,train,0
+1_5751,0,of course you do you re a cutie pie any girl would be lucky to have you,-1.0,Negative,train,0
+1_5758,0,oh i could so see you being the face of hemorrhoids,1.0,Positive,train,0
+1_5880,0,when you re done copping a feel that goes on my wrist,1.0,Positive,train,0
+1_6039,0,i don t know what i m going to do i don t want to break up over this,-1.0,Negative,train,0
+1_6092,0,we don t say that either i ll make you a list oh that would be mighty white of you,-1.0,Negative,train,0
+1_6183,0,you have a thing of paper clips right there,-1.0,Negative,train,0
+1_6188,0,oh my god that s where i know you from,1.0,Positive,train,0
+1_6221,0,well if you don t mind looking like an orange traffic cone great,1.0,Positive,train,0
+1_6355,0,said horrible things about each other in public all in all a pretty magical night,1.0,Positive,train,0
+1_6427,0,hmm that s too bad we could have spent new year s eve waiting for the ball to drop,1.0,Positive,train,0
+1_6428,0,sure you want to see what all the scientists are wearing this year,1.0,Positive,train,0
+1_6627,0,well yeah sex with you is pretty great have you ever tried it,-1.0,Negative,train,0
+1_6645,0,well that wady took high-wes pictures of my junk wast night for cwaigswist,-1.0,Negative,train,0
+1_6648,0,you mean for a person whose neck massages feel like an eagle is trying to carry you to its nest,1.0,Positive,train,0
+1_6769,0,hope your hands are steady it s the width of a single hair but this is just biology so i m sure it s no problem for a genius like you,1.0,Positive,train,0
+1_6835,0,oh screw her she s just lucky we let her hang out with us,-1.0,Negative,train,0
+1_7047,0,also instead of just living in your mother s house you could actually live inside her body,1.0,Positive,train,0
+1_7082,0,to all the good times we had like uh when we went camping and spent that night telling each other all our secrets i told him i m addicted to pedicures and he told me he lost his virginity to his cousin,-1.0,Negative,train,0
+1_7357,0,i m starting to get a sense of it,1.0,Positive,train,0
+1_7395,0,well if that s all it takes it s a good thing you don t have a dog,1.0,Positive,train,0
+1_7400,0,of course it is it s been in the news and it s a very famous boson,-1.0,Negative,train,0
+1_7402,0,i didn t know they gave nobel prizes for making boom-boom in the potty,1.0,Positive,train,0
+1_7443,0,we ve kind of been involved in a five-year experiment,-1.0,Negative,train,0
+1_7445,0,my limbic system wants to take your pants off,-1.0,Negative,train,0
+1_7449,0,okay the nasa web site says howard s final descent has begun,-1.0,Negative,train,0
+1_7494,0,that sounds a little funny to an american ear,-1.0,Negative,train,0
+1_7504,0,to stuart your comic book store is out of this world just like the guy in this picture was,-1.0,Negative,train,0
+1_7675,0,anyway to this day i still can t see a box of crayons without crossing my legs,-1.0,Negative,train,0
+1_7894,0,i did the guy at the liquor store said this stuff tastes great in coffee,-1.0,Negative,train,0
+1_7938,0,come on let s just start walking there s got to be a gas station or something nearby,-1.0,Negative,train,0
+1_7953,0,why don t you ask scotty to beam you up,1.0,Positive,train,0
+1_8045,0,dumped her what did he use a forklift,1.0,Positive,train,0
+1_8052,0,like burt and ernie you guys even teach me stuff about words and numbers,1.0,Positive,train,0
+1_8136,0,yeah i m really looking forward to it in fact there s no place i would rather be than here,1.0,Positive,train,0
+1_8159,0,and i m cool with surprises but nothing on a jumbotron i don t want to cry on a big screen like that,-1.0,Negative,train,0
+1_8185,0,we could go to red lobster and talk about it we re all thinking it i just had the decency to wait for him to leave,-1.0,Negative,train,0
+1_8217,0,go out with me on one date and i promise you you ll see,-1.0,Negative,train,0
+1_8452,0,i think i m gonna go thank you for the burrito and the pork rinds and the 20-minute lecture on why monster trucks are better than regular trucks,1.0,Positive,train,0
+1_8505,0,a lane frequented by liars like you you big liar,-1.0,Negative,train,0
+1_8717,0,because you re in the right lane behind a bus and you won t go around it i m sure she finds it charming,1.0,Positive,train,0
+1_8746,0,i enjoyed it when you told me i was going to be losing my virginity i didn t think you meant showing me <i>raiders of the lost ark</i> for the first time,1.0,Positive,train,0
+1_8749,0,it was very entertaining despite the glaring story problem,1.0,Positive,train,0
+1_8827,0,how do you not tear off his clothes and take him right here on this table,1.0,Positive,train,0
+1_9087,0,why because i got an ugly itchy sweater and my brother got a car no i was her favorite,1.0,Positive,train,0
+1_9963,0,what do you think i was gonna do at home,-1.0,Negative,train,0
+1_9972,0,ooh i m gonna check the fridge and see if there are any clues inside a beer,1.0,Positive,train,0
+1_9993,0,well my beer isn t flat and my rack s not saggy so far the future s great,1.0,Positive,train,0
+1_10009,0,let the dead man talk so why do you think that,-1.0,Negative,train,0
+1_10495,0,and if it turns out you don t - you and i could live together - you and oh sure,1.0,Positive,train,0
+1_10748,0,there they go fighting again you d never hear her talk that way to sauvignon blanc,1.0,Positive,train,0
+1_10797,0,i m with him three years nothing she s with two minutes and he s taking his pants off,-1.0,Negative,train,0
+1_10853,0,okay sit down listen emily what happened between me and raj was a long time ago it was,-1.0,Negative,train,0
+1_10857,0,it s true-- you re both gorgeous kind of says something about the man who could bed you both,-1.0,Negative,train,0
+1_10890,0,boy when you met bernadette the field of robotics really took a hit,1.0,Positive,train,0
+1_11006,0,maybe it s a good thing we came here it s like a lesson in what not to do,1.0,Positive,train,0
+1_11021,0,same as all of us getting out of a car without underwear,1.0,Positive,train,0
+1_11042,0,because no one wants to see neil degrasse tyson in a wet t-shirt bent over the hood of a porsche,-1.0,Negative,train,0
+1_11051,0,well he said it was a tribble it could be a toupee but either way it s pretty cool,-1.0,Negative,train,0
+1_11055,0,ah that s a good question apparently someone was being awfully flirty while not wearing their engagement ring causing another someone to show up here thinking the first someone might be available,1.0,Positive,train,0
+1_11098,0,wow you still have it i just assumed it was balled up in the corner of a barn somewhere,1.0,Positive,train,0
+1_11201,0,he probably got a new one finish your breakfast look there s an entire section of my dashboard that doesn t have any syrup on it,-1.0,Negative,train,0
+1_11232,0,and i love that i work and do all the cleaning and you re okay with that,1.0,Positive,train,0
+1_11242,0,i love that you take pride in your looks even when i have to pee in the morning and you re in there spending an hour on your hair,1.0,Positive,train,0
+1_11322,0,you know what that was almost on topic i m gonna say good job sheldon,1.0,Positive,train,0
+1_11439,0,no you re right we should do what you do have our mom send us pants from the walmart in houston,1.0,Positive,train,0
+1_11485,0,is that why you had to take him to office depot last night,-1.0,Negative,train,0
+1_11609,0,i ve uh created some other user accounts so i can post positive comments about their paper,-1.0,Negative,train,0
+1_11697,0,the answer s in this puzzle box let s see if you can open it,1.0,Positive,train,0
+1_11699,0,no stuart picked out those throw pillows all on his own,1.0,Positive,train,0
+1_11723,0,not much but he seemed to be in a pretty good place,-1.0,Negative,train,0
+1_11736,0,i don t know perhaps somebody took it off the carousel by mistake,-1.0,Negative,train,0
+1_11773,0,this is why i ve been saying we should keep champagne on ice,1.0,Positive,train,0
+1_11885,0,yeah turns out half a dozen menorahs really sets a mood,1.0,Positive,train,0
+1_11889,0,yeah we just want to have the kind of dinner that we ve all had here so many times before,-1.0,Negative,train,0
+1_11928,0,and if i had a friend they might have told me that,-1.0,Negative,train,0
+1_12202,0,no need to as soon as she flies into california airspace i ll feel a disturbance in the force,1.0,Positive,train,0
+1_12275,0,uh no i overheard bernadette tell howard she was making him a meat loaf and you don t have to not ask me twice,-1.0,Negative,train,0
+1_12320,0,oh yes we ve got the moon and the trees and elizabeth mcnulty who apparently died when she was the same age i am,-1.0,Negative,train,0
+1_12331,0,wow there s a denny s in vegas you can actually get married in,-1.0,Negative,train,0
+2_223,0,i guess he wants to do a little dance you know make a little love well pretty much get down to that,1.0,Positive,train,0
+2_370,0,you have to stop the q-tip when there is resistance,1.0,Positive,train,0
+2_556,0,joey if i go first i want to be looking for my keys,1.0,Positive,train,0
+2_484,0,yes yes it is in prison,1.0,Positive,train,0
+2_498,0,uh so how many cameras are actually on you,1.0,Positive,train,0
+2_494,0,but younger than some buildings,1.0,Positive,train,0
+2_477,0,and then and then you clicked it again she s dressed she is a business woman she is walking down the street and oh oh oh she s naked,-1.0,Negative,train,0
+2_35,0,oh no donõt go i have scared you i have said too much i am hopeless and awkward and desperate for love,-1.0,Negative,train,0
+2_279,0,sounds like she has got the whole package,1.0,Positive,train,0
+2_377,0,yeah either that or gloria estefan was right eventually the rhythm is going to get you,1.0,Positive,train,0
+2_595,0,i d miss you if i broke up with you just trying to be supportive,-1.0,Negative,train,0
+2_464,0,oh uh no thanks i just had an m&m,1.0,Positive,train,0
+2_408,0,okay but if you are not coming back soon there is pretty much nothing i can do about it,1.0,Positive,train,0
+2_574,0,you can t do anything,-1.0,Negative,train,0
+2_409,0,i ll catch you guys later,-1.0,Negative,train,0
+2_549,0,really,-1.0,Negative,train,0
+2_598,0,our balcony seriously that s so funny because i told monica we should put lights on our balcony - and she said - no no its too cold nobody will go out there - i said maybe if we put some lights out there they will,1.0,Positive,train,0
+2_73,0,oh my god you almost gave me a heart attack,1.0,Positive,train,0
+2_374,0,janice janice,1.0,Positive,train,0
+2_297,0,i am sorry it was a one time thing i was very drunk and it was someone else s subconscious,1.0,Positive,train,0
+2_286,0,and sometimes i would want you to steal third and i ll go like this,1.0,Positive,train,0
+2_509,0,crazy bitch,1.0,Positive,train,0
+2_508,0,yes the doctor s say if they remove it he will die,1.0,Positive,train,0
+2_472,0,and i just won a million dollars,-1.0,Negative,train,0
+2_227,0,you sure he is going to be able to crack that code,1.0,Positive,train,0
+2_226,0,these people find out that a spelling game is going over there there will be nobody left at our party,1.0,Positive,train,0
+2_478,0,oh wait a minute i have no one,1.0,Positive,train,0
+2_372,0,actually i yesterday i was smoking again today i am smoking still,1.0,Positive,train,0
+2_241,0,oh i do oh no wait a minute i took it out of my shirt when i put it on this morning,1.0,Positive,train,0
+2_109,0,i thought if i littered that crying indian might come by and save us,1.0,Positive,train,0
+2_389,0,huh whats dufus speled backwards,1.0,Positive,train,0
+2_449,0,oh no now its not gonna make any sense,1.0,Positive,train,0
+2_50,0,nope that patch is no good,1.0,Positive,train,0
+2_84,0,if that doesn t keep kids in school what will,1.0,Positive,train,0
+2_322,0,hey my father s house does that,-1.0,Negative,train,0
+2_416,0,were you so late because you were burying this woman,1.0,Positive,train,0
+2_124,0,i am so confused as to what we have been doing so far,1.0,Positive,train,0
+2_206,0,a tshirt that says - i don t belong here,1.0,Positive,train,0
+2_204,0,oh oh i am convinced,1.0,Positive,train,0
+2_380,0,oh just like give a minute to wake up for this ha ha you lost the ring you the worst best man ever,-1.0,Negative,train,0
+2_622,0,pheebs you may know this you know strange things what is the boiling point of brain,1.0,Positive,train,0
+2_583,0,and the bunny got away,1.0,Positive,train,0
+2_456,0,and you are gonna make them all disappear,1.0,Positive,train,0
+2_461,0,wow you look just like your son mrs tribbiani,1.0,Positive,train,0
+2_152,0,your makeup,1.0,Positive,train,0
+2_15,0,i m sorry man there is never a good time to have to stop catching on fire,1.0,Positive,train,0
+2_421,0,joey s got a really bad hernia but its nothing that a laser eye surgery wont fix,1.0,Positive,train,0
+2_586,0,see now that i see crying over but bambi is a cartoon,1.0,Positive,train,0
+2_160,0,because his penis was too big i am sorry thatõs the kind of thing i do,-1.0,Negative,train,0
+2_39,0,oh hurry up i want to sign that,1.0,Positive,train,0
+2_66,0,nice jon joe you are quite the craftsman,1.0,Positive,train,0
+2_310,0,well thank god your livelihood doesn t depend on it,1.0,Positive,train,0
+2_345,0,oh i left them in my bulldozer i don t have tools,1.0,Positive,train,0
+2_581,0,we were wondering what was taking so long with the gift but now we understand you were doing this,1.0,Positive,train,0
+2_518,0,oh tons i am quite the woodsman,1.0,Positive,train,0
+2_450,0,if only there was something in your head to control the things you say,1.0,Positive,train,0
+2_567,0,well yes ross pressing my third nipple opens the delivery entrance to the magical land of narnia,1.0,Positive,train,0
+2_115,0,i am sorry we donõt have your sheep,1.0,Positive,train,0
+2_183,0,no rabies,1.0,Positive,train,0
+2_104,0,was that place the sun,1.0,Positive,train,0
+2_288,0,maybe he was nervous,1.0,Positive,train,0
+2_420,0,no you are not chandler we still love you chandler,1.0,Positive,train,0
+2_49,0,we got a box,-1.0,Negative,train,0
+2_433,0,i was saying the actual words,1.0,Positive,train,0
+2_428,0,his legs flail about as if independent from his body,-1.0,Negative,train,0
+2_1,0,yes you can you re thinking about time you can t go back in time,-1.0,Negative,train,0
+2_168,0,did i wake you,1.0,Positive,train,0
+2_155,0,great now we can do laundry all night all night laundry,1.0,Positive,train,0
+2_2,0,thatõs a good one too pheebs now all that i have to do is find a plane load of people whose resolution is to plummet to their deaths,1.0,Positive,train,0
+2_120,0,you know some might find it amusing i myself find it regular,1.0,Positive,train,0
+2_487,0,and hornswoggle what are you dating a character from fraggle rock ahh,1.0,Positive,train,0
+2_280,0,joey ate my last stick of gum so i killed him do you think that was wrong,1.0,Positive,train,0
+2_447,0,it was an accident not like i was across the street with a telescope and a box of donuts,1.0,Positive,train,0
+2_148,0,hey that s joincidence with a c,1.0,Positive,train,0
+2_532,0,the jamestown colony of virginia you see king george is giving us the land so,1.0,Positive,train,0
+2_443,0,dear god this parachute is a knapsack,1.0,Positive,train,0
+2_475,0,oh yeah ok including the waffles last week you now owe me seventeen zillion dollars,1.0,Positive,train,0
+2_92,0,no no i am just looking for a man to draw on me with chalk,1.0,Positive,train,0
+2_258,0,i am telling you when she leaned back i could see her brain,1.0,Positive,train,0
+2_376,0,me i am gonna die alone,1.0,Positive,train,0
+2_114,0,spanish midgets wrestling julie okay yes i see how they got there,1.0,Positive,train,0
+2_246,0,well it will probably slow me down at first but once i am used to the extra weight i ll get back on track,1.0,Positive,train,0
+2_268,0,a lonely grey couch o look cried ned and then the kingdom was his the end,-1.0,Negative,train,0
+2_221,0,see joe that s why your parents told you not to jump on your bed,-1.0,Negative,train,0
+2_369,0,i just have to do one thing really quickly its not a big thing get up||,1.0,Positive,train,0
+2_103,0,no this is just part of a daredevil game that i play called wait until last moment before i burst and die,1.0,Positive,train,0
+2_457,0,yes we all know how cruel a parent can be about the flatness of a child s pillow,1.0,Positive,train,0
+2_112,0,i think this is probably why damone smokes in his cell alone,1.0,Positive,train,0
+2_174,0,oh satan s minions at work again,1.0,Positive,train,0
+2_490,0,maybe it s a contest you know like collect all five,1.0,Positive,train,0
+2_430,0,i guess you would know that or else we would be in a predicament room,1.0,Positive,train,0
+2_434,0,we can ok i am trying that,1.0,Positive,train,0
+2_541,0,oh yeah right and what would my opening line be excuse me,1.0,Positive,train,0
+2_392,0,ah you see perfect might be a problem had you said co-dependent or self-destructive,1.0,Positive,train,0
+2_187,0,that s so funny because you look more like joey tribbiani man slash woman,1.0,Positive,train,0
+2_113,0,no no the actual cartoon character of course the baloon,1.0,Positive,train,0
+2_323,0,that monkey has got a ross on its ass,1.0,Positive,train,0
+2_137,0,okay but if he asks i am not going to lie,-1.0,Negative,train,0
+2_294,0,oh um i don t care,1.0,Positive,train,0
+2_359,0,you know once you are inside you don t have to knock anymore,1.0,Positive,train,0
+2_141,0,we think it was trying to spell out monkey,1.0,Positive,train,0
+2_283,0,dee the sarcastic sister from what s happening,1.0,Positive,train,0
+2_24,0,uh okay the fifth dentist caved and not they re all recommending trident,1.0,Positive,train,0
+2_197,0,ah your own brand of vigilante justice,1.0,Positive,train,0
+2_493,0,did you tell her about the magical night that starts with the flush of every toilet,1.0,Positive,train,0
+2_573,0,oh i see i thought you just really really liked your new couch,1.0,Positive,train,0
+2_440,0,no its not big not at all kind of the same lines as i don t know having a third nipple,1.0,Positive,train,0
+2_105,0,why you never look down in the shower oh please i am allowed one joke in the monkey is penis genre,1.0,Positive,train,0
+2_3,0,and i think my testicles may be in here too,1.0,Positive,train,0
+2_71,0,thatõs good just keep rubbing your head that will turn back time,1.0,Positive,train,0
+2_20,0,my duties all right,-1.0,Negative,train,0
+2_463,0,ok,-1.0,Negative,train,0
+2_602,0,no way,-1.0,Negative,train,0
+2_88,0,oh,-1.0,Negative,train,0
+2_172,0,the whole thing can we go,1.0,Positive,train,0
+2_86,0,great okay here,-1.0,Negative,train,0
+2_154,0,okay does this look like a garbage can to you,-1.0,Negative,train,0
+2_557,0,oh my god wh-what happened,-1.0,Negative,train,0
+2_163,0,oh boy i just can t watch it s too scary,1.0,Positive,train,0
+2_87,0,yeah it would,-1.0,Negative,train,0
+2_240,0,no,-1.0,Negative,train,0
+2_267,0,really,-1.0,Negative,train,0
+2_278,0,yeah,-1.0,Negative,train,0
+2_284,0,what why,-1.0,Negative,train,0
+2_340,0,oh oop,-1.0,Negative,train,0
+2_536,0,what a baby,-1.0,Negative,train,0
+2_588,0,i talk to you and nothin,-1.0,Negative,train,0
+2_448,0,do you still wanna call em i wanna call em,-1.0,Negative,train,0
+2_79,0,i m just gonna throw it out it s probably just a bunch of shampoo and,-1.0,Negative,train,0
+2_191,0,so you re just bing,-1.0,Negative,train,0
+2_99,0,all right cut let s pick again pick again,-1.0,Negative,train,0
+2_208,0,it s that whole sensitive thing,-1.0,Negative,train,0
+2_119,0,yeah what-what should i do,-1.0,Negative,train,0
+2_406,0,for what for letting you throw me out of your office,1.0,Positive,train,0
+2_423,0,like i have nothing better to do,1.0,Positive,train,0
+2_55,0,oh hey great you re up rachel this is my sister krista krista this is rachel,-1.0,Negative,train,0
+2_77,0,umm excuse me we switched apartments you can t eat are food anymore that-that gravy train had ended,-1.0,Negative,train,0
+2_147,0,well we re trying to find someone to perform our wedding and they re all either boring or annoying or y know can t stop staring at the ladies,-1.0,Negative,train,0
+2_559,0,what,-1.0,Negative,train,0
+2_444,0,ross-ross you have no idea what this means to me,-1.0,Negative,train,0
+2_299,0,what would you give to a kid if he wanted a ticket to play with,-1.0,Negative,train,0
+2_313,0,oh sure go with the sissy,1.0,Positive,train,0
+2_125,0,i mean if you hadn t initiated it i-i-i know i would ve,-1.0,Negative,train,0
+2_552,0,danger,-1.0,Negative,train,0
+2_181,0,yeah look,-1.0,Negative,train,0
+2_107,0,you d better act surprised,-1.0,Negative,train,0
+2_347,0,well what are you gonna do when he finds out he wasn t even asked,-1.0,Negative,train,0
+2_495,0,okay you guys just relax i doooo,-1.0,Negative,train,0
+2_525,0,y know what i mean like dubbies,-1.0,Negative,train,0
+2_186,0,excellent hole joe,1.0,Positive,train,0
+2_506,0,oh my god ohh that is it i m leaving you are just a horrible person,-1.0,Negative,train,0
+2_486,0,anyway they want to take us out saturday night what do you say,-1.0,Negative,train,0
+2_149,0,thank you,-1.0,Negative,train,0
+2_150,0,take your shirt off and let s see what we re dealing with here what are you doing,-1.0,Negative,train,0
+2_12,0,i studied for a year in barcelona,-1.0,Negative,train,0
+2_611,0,just tell me how,1.0,Positive,train,0
+2_429,0,i really really enjoyed it very exotic,1.0,Positive,train,0
+2_127,0,when today some not a lot,-1.0,Negative,train,0
+2_36,0,the big deal is i don t want naked greasy strangers in my apartment when i want to kick back with a puzzle beer cold beer,-1.0,Negative,train,0
+2_173,0,we- we had our first fight this morning,-1.0,Negative,train,0
+2_295,0,nobody sees the king,-1.0,Negative,train,0
+2_356,0,yeah,-1.0,Negative,train,0
+2_38,0,it s not a real game i made it up,-1.0,Negative,train,0
+2_431,0,i m never gonna get to meet her anyway,-1.0,Negative,train,0
+2_13,0,all right let s do it,-1.0,Negative,train,0
+2_482,0,y know you you just stop being such a wuss and get those off and you come with us and watch naked girls dance around,-1.0,Negative,train,0
+2_193,0,yeah a slice of cheesecake and-and a date if you re given em out,-1.0,Negative,train,0
+2_203,0,it s not funny,-1.0,Negative,train,0
+2_426,0,are you kidding i love that guy morning s here morning is here,-1.0,Negative,train,0
+2_357,0,stating the obvious but thank you and it s not weird is it,1.0,Positive,train,0
+2_590,0,yeah i don t think so joe,-1.0,Negative,train,0
+2_316,0,yeah i m fine,-1.0,Negative,train,0
+2_8,0,it s white plastic with a handle and it fits onto a stroller,-1.0,Negative,train,0
+2_343,0,so to sum up i m professor geller,-1.0,Negative,train,0
+2_334,0,when they re hungry enough they ll come in,-1.0,Negative,train,0
+2_367,0,well don t cha wanna,-1.0,Negative,train,0
+2_51,0,well i believe the piece of furniture was fine until your little breakfast adventure with angela delvecchio,-1.0,Negative,train,0
+2_282,0,what-wh-what so we ll just stay married forever,1.0,Positive,train,0
+2_225,0,i don t know something girlie,-1.0,Negative,train,0
+2_514,0,what s going on that s what s going on,-1.0,Negative,train,0
+2_272,0,weā€™re not peeking,-1.0,Negative,train,0
+2_43,0,well y know i m 29 i mean who needs a savings account,1.0,Positive,train,0
+2_575,0,why because she can sing and play guitar and do both at the same time,1.0,Positive,train,0
+2_339,0,thank you,-1.0,Negative,train,0
+2_69,0,cover yourself up,-1.0,Negative,train,0
+2_217,0,ohhh,-1.0,Negative,train,0
+2_213,0,wait wait chandler this is what you re havin for thanksgiving dinner,-1.0,Negative,train,0
+2_96,0,i don t think so hello when you get in there,-1.0,Negative,train,0
+2_188,0,you had no relationship,-1.0,Negative,train,0
+2_29,0,it was like months ago,-1.0,Negative,train,0
+2_177,0,i can show you an id if you want,1.0,Positive,train,0
+2_358,0,i do not always have to be okay okay,-1.0,Negative,train,0
+2_263,0,wow imagine what our kids would look like,-1.0,Negative,train,0
+2_446,0,i d love to show ya but i just tucked her in,-1.0,Negative,train,0
+2_594,0,i can t believe it can i tell you something i m a little mad at him now,-1.0,Negative,train,0
+2_535,0,so i m sorry i just don t think we should go away together yet,-1.0,Negative,train,0
+2_617,0,and protected them from a tornado,1.0,Positive,train,0
+2_210,0,when are you coming home,-1.0,Negative,train,0
+2_234,0,see there you go the cleansing works,-1.0,Negative,train,0
+2_162,0,ow ow ow ow leg cramp leg cramp leg cramp,-1.0,Negative,train,0
+2_437,0,oh yeah first off all chasing the churo guy isn t jogging,-1.0,Negative,train,0
+2_341,0,well i d gotten judy pregnant i still don t know how that happened,1.0,Positive,train,0
+2_318,0,was it not pain-free,1.0,Positive,train,0
+2_579,0,no,-1.0,Negative,train,0
+2_250,0,oh you say someone s name enough they turn around,1.0,Positive,train,0
+2_194,0,and it came out squatternut buash,-1.0,Negative,train,0
+2_78,0,i didn t know you and carol were getting divorced i m sorry,-1.0,Negative,train,0
+2_337,0,uh listen i need that broiling pan that joey borrowed the other day,-1.0,Negative,train,0
+2_435,0,me too there s a game on tuesday do you wanna go,-1.0,Negative,train,0
+2_419,0,uh-huh,-1.0,Negative,train,0
+2_564,0,and uh i don t know if you got any of that but i would really like a copy of the tape,-1.0,Negative,train,0
+2_261,0,oh no no i just meant hypothetically,-1.0,Negative,train,0
+2_422,0,well i like it here you go,-1.0,Negative,train,0
+2_627,0,whoa whoa whoa,-1.0,Negative,train,0
+2_445,0,okay,-1.0,Negative,train,0
+2_585,0,you and i we re interfacing,-1.0,Negative,train,0
+2_91,0,alright i m gonna go pick up a few things for the trip,-1.0,Negative,train,0
+2_560,0,so now i have to go so he ll think that i m totally ok with seeing him,1.0,Positive,train,0
+2_425,0,and did he,-1.0,Negative,train,0
+2_53,0,you re gonna have to tell me how you did that,-1.0,Negative,train,0
+2_481,0,all right,-1.0,Negative,train,0
+2_293,0,no,-1.0,Negative,train,0
+2_248,0,i mean you and i we re just y know we re nothing we re goofin around,1.0,Positive,train,0
+2_56,0,uh-huh well but umm still i m-i m mad at you,-1.0,Negative,train,0
+2_260,0,okay are you aware unagi is an eel,1.0,Positive,train,0
+2_134,0,paper cut,-1.0,Negative,train,0
+2_488,0,just a sec give me a minute to wake up for this ah-ha-ha,-1.0,Negative,train,0
+2_542,0,uh rachel s here so good luck man let me know how it works out,1.0,Positive,train,0
+2_504,0,all right okay well apparently not,1.0,Positive,train,0
+2_54,0,that s easy for you to say you weren t almost just killed,1.0,Positive,train,0
+2_300,0,i don t think you could ever do that,-1.0,Negative,train,0
+2_387,0,yes i know but her friend sounds like such a,-1.0,Negative,train,0
+2_569,0,chandler,-1.0,Negative,train,0
+2_530,0,uh i m gonna kill myself,-1.0,Negative,train,0
+2_48,0,thanks but i kinda have a problem to deal with here,-1.0,Negative,train,0
+2_253,0,yeah,-1.0,Negative,train,0
+2_555,0,hey it s starting to snow,-1.0,Negative,train,0
+2_42,0,look please please don t go anywhere okay,-1.0,Negative,train,0
+2_441,0,he s right even if it s to say something complementary,-1.0,Negative,train,0
+2_218,0,hey does somebody wanna hand me one of those tiles,-1.0,Negative,train,0
+2_415,0,chloe switch with me there s some guys here that got a crush on you,-1.0,Negative,train,0
+2_473,0,i m the supply manager,-1.0,Negative,train,0
+2_537,0,what did you want to show us because all i can see is this bitchin van,-1.0,Negative,train,0
+2_397,0,you still love me,-1.0,Negative,train,0
+2_572,0,no i m so happy for them,-1.0,Negative,train,0
+2_243,0,look i never should have kissed your girlfriend but i m,-1.0,Negative,train,0
+2_474,0,lovely,1.0,Positive,train,0
+2_245,0,well ah i ve been doing a lot of thinking and i look at my life,-1.0,Negative,train,0
+2_176,0,i m the ruptured spleen,-1.0,Negative,train,0
+2_58,0,why,-1.0,Negative,train,0
+2_427,0,oh-oh that s a risky little game,-1.0,Negative,train,0
+2_534,0,oh come on,-1.0,Negative,train,0
+2_626,0,cause all i ever get to do now is pregnant stuff it just bums me out,-1.0,Negative,train,0
+2_607,0,hey,-1.0,Negative,train,0
+2_33,0,this-this no oh no no-no-no this is not that s-that s not what it is,-1.0,Negative,train,0
+2_44,0,whoa maybe i was,-1.0,Negative,train,0
+2_189,0,yeah okay i was just talking to the guys just look at them i mean is it okay if they come visit,1.0,Positive,train,0
+2_232,0,well umm my mom s friend phoebe is actually my birth mom,-1.0,Negative,train,0
+2_400,0,anyway i should go one of the lifeguards was just about to dismantle a nuclear device,-1.0,Negative,train,0
+2_230,0,okay janice janice you gotta give me janice that wasn t about being picky,-1.0,Negative,train,0
+2_180,0,that oughta do it,-1.0,Negative,train,0
+2_270,0,hey,-1.0,Negative,train,0
+2_550,0,all right i ll have one,1.0,Positive,train,0
+2_454,0,ross umm there s something that i ve got to tell you there s-there s someone else,-1.0,Negative,train,0
+2_151,0,yeah i mean it would be rude to them for us to leave now,1.0,Positive,train,0
+2_439,0,twenty-one hours you re a hero,-1.0,Negative,train,0
+2_385,0,no i know but i he just went on,-1.0,Negative,train,0
+2_547,0,okay now much have you won so far,-1.0,Negative,train,0
+2_65,0,it s my friends,-1.0,Negative,train,0
+2_251,0,no you have been screwing us all day,-1.0,Negative,train,0
+2_205,0,i did not mean to touch that i mean,-1.0,Negative,train,0
+2_405,0,i m supposed to teach a graduate seminar there in ten minutes,-1.0,Negative,train,0
+2_375,0,i was thkinking about maybe going into the robot,-1.0,Negative,train,0
+2_72,0,oh well it probably would ve been the most constructive solution,-1.0,Negative,train,0
+2_353,0,nothing it s just old and dingy that s all,-1.0,Negative,train,0
+2_517,0,yeah,-1.0,Negative,train,0
+2_521,0,uh-huh,-1.0,Negative,train,0
+2_499,0,the end,-1.0,Negative,train,0
+2_317,0,ah oh hang on a second come in come in all right so think about it and call me back,-1.0,Negative,train,0
+2_393,0,pheebs,-1.0,Negative,train,0
+2_254,0,yeah yeah that s what you need a good pill,1.0,Positive,train,0
+2_407,0,hey,-1.0,Negative,train,0
+2_94,0,can t do it can you,-1.0,Negative,train,0
+2_198,0,yeah she s fired,-1.0,Negative,train,0
+2_365,0,nope op wait there he goes,-1.0,Negative,train,0
+2_301,0,hey do you know a six-letter word for red,-1.0,Negative,train,0
+2_540,0,okay,-1.0,Negative,train,0
+2_302,0,i know but it s so hard nothing rhymes with your stupid name,-1.0,Negative,train,0
+2_305,0,take a couple deep breaths,-1.0,Negative,train,0
+2_27,0,no no you don t have to fly back really,-1.0,Negative,train,0
+2_196,0,what,-1.0,Negative,train,0
+2_264,0,okay,-1.0,Negative,train,0
+2_615,0,hi joey well well look what you brought very nice,-1.0,Negative,train,0
+2_111,0,what was that,-1.0,Negative,train,0
+2_202,0,yeah,-1.0,Negative,train,0
+2_577,0,on the other hand in um in about seven months you re gonna have something that you re gonna love more than any guy you ve ever gone out with,-1.0,Negative,train,0
+2_467,0,that is the coast guard,-1.0,Negative,train,0
+2_526,0,ah well this is the living room,-1.0,Negative,train,0
+2_257,0,oh hey look i found coffee okay let s skedaddle,-1.0,Negative,train,0
+2_259,0,i wasn t by myself i had a doctor a nurse and a helper guy so did you see who won the game,-1.0,Negative,train,0
+2_609,0,i just called a friend of mine,-1.0,Negative,train,0
+2_31,0,even if people are on it,1.0,Positive,train,0
+2_371,0,i-i m really sorry it s just that i,-1.0,Negative,train,0
+2_531,0,yeah well that s because uh i stayed in my room yeah you don t want to look in my hamper,-1.0,Negative,train,0
+2_315,0,i guess you d know that being one of the two of us though right,1.0,Positive,train,0
+2_413,0,some guy bought it i m sorry i tired to stop it but they put me in jail,-1.0,Negative,train,0
+2_548,0,almost but first we gotta start,1.0,Positive,train,0
+2_128,0,you building a post office,1.0,Positive,train,0
+2_326,0,stick to the list,-1.0,Negative,train,0
+2_247,0,uh yes thank you,1.0,Positive,train,0
+2_576,0,and then for forgetting to invite you to it,-1.0,Negative,train,0
+2_146,0,so ross how umm how did it go with bonnie,-1.0,Negative,train,0
+2_458,0,what are you up too,-1.0,Negative,train,0
+2_522,0,yes it is,-1.0,Negative,train,0
+2_30,0,so how d it go,-1.0,Negative,train,0
+2_171,0,what is the matter with your face,-1.0,Negative,train,0
+2_97,0,it would be nice to have a little guarantee though,1.0,Positive,train,0
+2_228,0,then we went to this bar and he hooked us up with all these women,-1.0,Negative,train,0
+2_7,0,i ve never loved anybody as much as i love you,-1.0,Negative,train,0
+2_553,0,no just nobody press on my stomach,-1.0,Negative,train,0
+2_291,0,umm would you please excuse me for a moment,-1.0,Negative,train,0
+2_319,0,no,-1.0,Negative,train,0
+2_314,0,am i out of control,-1.0,Negative,train,0
+2_410,0,if you wanna put a label on it,1.0,Positive,train,0
+2_166,0,but i m the host,-1.0,Negative,train,0
+2_558,0,i can see it from right here it ll cost you one husband,1.0,Positive,train,0
+2_289,0,nooo no that s not true no best time ever yeah you rocked my world,1.0,Positive,train,0
+2_118,0,seriously it s moving,-1.0,Negative,train,0
+2_28,0,carol called me to thank me for the lasagna i asked she told me,-1.0,Negative,train,0
+2_562,0,look now phoebe remember hey their just fulfilling their christmas,-1.0,Negative,train,0
+2_231,0,no no no it s flattery,-1.0,Negative,train,0
+2_388,0,yeah she couldn t live without the chan love,-1.0,Negative,train,0
+2_102,0,no blanche she is upset because they keep changing the taste of coke,1.0,Positive,train,0
+2_351,0,no rose she is depressed because marvel had manners on only once a week,1.0,Positive,train,0
+2_350,0,no rose i am nervous because sonny bono gets elected mayor of palm springs he is gonna make all the postmens wear leather bell bottoms and a fur vest,1.0,Positive,train,0
+2_587,0,oh yes blanche about a half hour ago but now i have hidden her again so you can find her,1.0,Positive,train,0
+2_612,0,i don t know rose maybe marry poppins has an italian cousin,1.0,Positive,train,0
+2_89,0,on the home shopping network,1.0,Positive,train,0
+2_599,0,no i am upset because crocodin turbs are wearing darker colors,1.0,Positive,train,0
+2_182,0,the liberarche marquee at caesar s palace,1.0,Positive,train,0
+2_292,0,no she is going to sit here where itõs a 112 degrees and eat enchiladas,1.0,Positive,train,0
+2_489,0,no its because i cannot make any sense of those commercials for obsession,1.0,Positive,train,0
+2_390,0,no i am depressed becaues phillis george left the morning news,1.0,Positive,train,0
+2_378,0,no blanche with a venus fly trap,1.0,Positive,train,0
+2_9,0,no rose go to the corner and open a stand,1.0,Positive,train,0
+2_144,0,lords of arabia,1.0,Positive,train,0
+2_479,0,no i am worried she might be phir resuda s,1.0,Positive,train,0
+2_45,0,oh ma no it was a little girl selling girl scout toilets,1.0,Positive,train,0
+2_507,0,no i haven t taken her out of the trunk of the car yet,1.0,Positive,train,0
+2_398,0,rose you should sit here and watch her hack herself to death,1.0,Positive,train,0
+2_281,0,ofcourse no ma i am referring to carrey grant he is living in the broom closet,1.0,Positive,train,0
+2_591,0,how about stopping by new years eve with three naked women throwing up in the pool passing out in the punch bowl and relieving yourself in the linen closet,-1.0,Negative,train,0
+2_462,0,no rose at a pie eating contest,1.0,Positive,train,0
+2_505,0,to feed the cat rose,1.0,Positive,train,0
+2_74,0,show them your slides of hawaii,1.0,Positive,train,0
+2_126,0,no i am upset because joe piscapo didn t get the lead role in rain man,1.0,Positive,train,0
+2_158,0,a bucket of chicked i hope you like it extra flat and crispy,1.0,Positive,train,0
+2_255,0,it s a musical rose,1.0,Positive,train,0
+2_502,0,i m worried about whether michael jackson will be able to buy the remains of the elephant man,1.0,Positive,train,0
+2_11,0,his cappucino maker,1.0,Positive,train,0
+2_135,0,no she i supset because jimmy swaager can t cover his motel bill,1.0,Positive,train,0
+2_442,0,no itõs the rose in the kitchen thing,1.0,Positive,train,0
+2_342,0,in what blanche dog years,1.0,Positive,train,0
+2_492,0,i m sorry sophia but in dorothy s defence it sure sounds a lot like her,1.0,Positive,train,0
+2_512,0,because it wears a little sunbrella rose,1.0,Positive,train,0
+2_121,0,what was i doing my ben gazara in person,1.0,Positive,train,0
+2_129,0,what are these claws,1.0,Positive,train,0
+2_222,0,the little man who lives in there who turns the light on and off will tell you,1.0,Positive,train,0
+2_604,0,no rose i am developing pictures from the magellan space probe,1.0,Positive,train,0
+2_352,0,no rose it stands alone,1.0,Positive,train,0
+2_344,0,a hand puppet rose,1.0,Positive,train,0
+2_465,0,no rose that you should do,1.0,Positive,train,0
+2_471,0,amazing,1.0,Positive,train,0
+2_361,0,nooo,1.0,Positive,train,0
+2_190,0,well scott i am sure we are all really really looking forward to hear your story,1.0,Positive,train,0
+2_271,0,sarcasm noo,1.0,Positive,train,0
+2_306,0,no no no i just mediate the gorup i just give up every tuesday of my life to help these screwups for the good of my health,1.0,Positive,train,0
+2_209,0,really,1.0,Positive,train,0
+2_312,0,sarcasm at a sarcasmoholics meeting,1.0,Positive,train,0
+2_485,0,you got off to a really good start with the group,1.0,Positive,train,0
+2_527,0,we thought you were just here for the company he is a sarcasmoholic stewart,1.0,Positive,train,0
+2_596,0,noooo really,1.0,Positive,train,0
+2_123,0,nooo,1.0,Positive,train,0
+2_140,0,sarcastic us nooo,1.0,Positive,train,0
+2_338,0,and i am sure every person here really really wants you to join our group,1.0,Positive,train,0
+2_381,0,noo,1.0,Positive,train,0
+2_511,0,you said you spent all that money because those boots go with skirts dresses and pants what do you plan on wearing a chicken suit,1.0,Positive,train,0
+2_287,0,oh i am sorry do you need a break,1.0,Positive,train,0
+2_161,0,i can see it from right here it ll cost you one husband,1.0,Positive,train,0
+2_589,0,well why don t you check in one of my saddle bags while i chew on a bale of hay,1.0,Positive,train,0
+2_523,0,well i m a headhunter i hook up out of work soviet scientists with rogue third-world nations hi rasputin,1.0,Positive,train,0
+2_491,0,let me think let me think oh i don t care,1.0,Positive,train,0
+2_170,0,the british are coming,1.0,Positive,train,0
+2_500,0,oh my god i love that - really - no,1.0,Positive,train,0
+2_303,0,no thanks josephine,1.0,Positive,train,0
+2_570,0,oh my god where are all the men,-1.0,Negative,train,0
+2_178,0,this is so good that i am gonna enjoy it in the balcony i can enjoy my view whilst i enjoy my desert,1.0,Positive,train,0
+2_438,0,really struck down in the prime of life,1.0,Positive,train,0
+2_167,0,i am not freaking out why would i be freaking out a woman named hildy called and said we will get married but that happens everyday,1.0,Positive,train,0
+2_373,0,i was making a coconut phone with a professor,1.0,Positive,train,0
+2_623,0,what do you know its a treat for the eyes and the ears,1.0,Positive,train,0
+2_131,0,i really don t wanna sit with allen iverson over there,-1.0,Negative,train,0
+2_236,0,gee if only she were one and had no idea what a birthday was,1.0,Positive,train,0
+2_546,0,oh sure she was probably up all night excited about the party she knows is happening,1.0,Positive,train,0
+2_242,0,are you still enjoying your nap,1.0,Positive,train,0
+2_169,0,hes not right for the part and if i suggest him my bosses are going to think i am an idiot and thatõs something they should learn on their own,1.0,Positive,train,0
+2_235,0,oh yeah he has a caretaker his older brother ernie you can t make this stuff up,-1.0,Negative,train,0
+2_34,0,is it me or the greetings gone downhill around here,1.0,Positive,train,0
+2_608,0,you are right by saying nice i am virtually licking her,1.0,Positive,train,0
+2_524,0,yes and we are very excited about it,1.0,Positive,train,0
+1_60,0,it s just a privilege to watch your mind at work,1.0,Positive,valid,0
+1_80,0,since it s not bee season you can have my epinephrine,-1.0,Negative,valid,0
+1_90,0,lois lane is falling accelerating at an initial rate of 32 feet per second per second superman swoops down to save her by reaching out two arms of steel miss lane who is now traveling at approximately 120 miles an hour hits them and is immediately sliced into three equal pieces,-1.0,Negative,valid,0
+1_105,0,i m just inferring this is a couch because the evidence suggests the coffee table is having a tiny garage sale,1.0,Positive,valid,0
+1_162,0,sheldon if you were a robot and i knew and you didn t,-1.0,Negative,valid,0
+1_175,0,if you re compiling a mix cd for a double suicide oh i hope that scratching post is for you,1.0,Positive,valid,0
+1_182,0,no the dark crescent-shaped patterns under your arms conceal it nicely,1.0,Positive,valid,0
+1_213,0,how s this pleased to meet you dr gablehauser how fortunate for you that the university s chosen to hire you despite the fact that you ve done no original research in 25 years and instead have written a series of popular books that reduce the great concepts of science to a series of anecdotes each one dumbed down to accommodate the duration of an average bowel movement,1.0,Positive,valid,0
+1_427,0,well i m sorry too but there s just no room for you in my wallet,1.0,Positive,valid,0
+1_467,0,that woman looks exactly like the pictures of princess panchali in the book how often does one see a beloved fictional character come to life,-1.0,Negative,valid,0
+1_506,0,not to mention you d have to power down on saturdays,-1.0,Negative,valid,0
+1_507,0,well there s always the possibility that a trash can spontaneously formed around the letter but occam s rasor would suggest that someone threw it out,1.0,Positive,valid,0
+1_536,0,just the latest copy of applied particle physics quarterly,1.0,Positive,valid,0
+1_672,0,do you think penny will come here and take care of us,-1.0,Negative,valid,0
+1_971,0,- now - no after my tongue has swollen to the size of a brisket,1.0,Positive,valid,0
+1_1003,0,good idea sit with her hold her comfort her and if the moment feels right see if you can cop a feel,1.0,Positive,valid,0
+1_1144,0,notify the editors of the oxford english dictionary the word plenty has been redefined to mean two,1.0,Positive,valid,0
+1_1180,0,oh please the only way she could make a contribution to science would be if they resumed sending chimps into space,1.0,Positive,valid,0
+1_1189,0,i m sorry i am not going back to the renaissance fair,-1.0,Negative,valid,0
+1_1262,0,you were very clear as was everyone else at the table,-1.0,Negative,valid,0
+1_1296,0,they gave him an assistant if i want a new pen i have to go to the bank with wire cutters,1.0,Positive,valid,0
+1_1466,0,maybe when i publish it i ll include an inhaler,1.0,Positive,valid,0
+1_1478,0,sadly mrs giselle wolowitz is sensitive to chlorine lucky for her i like my fashion models pruny and bug-eyed,1.0,Positive,valid,0
+1_1484,0,the big deal is that nobody touches food on my plate,-1.0,Negative,valid,0
+1_1549,0,on a dusty highway just outside bakersfield where do you think on mars,1.0,Positive,valid,0
+1_1560,0,how nice maybe they can carpool when they visit you in federal prison,1.0,Positive,valid,0
+1_1722,0,my aunt marion gave them to me for my 12th birthday,-1.0,Negative,valid,0
+1_1772,0,dave sounds like leonard s got a new bff,1.0,Positive,valid,0
+1_2198,0,assuming i can keep up this pace three hours 11 minutes plus however long it takes to conclude this fairly pointless conversation,1.0,Positive,valid,0
+1_2354,0,so do cocaine smugglers write cocaine on the box,1.0,Positive,valid,0
+1_2423,0,provided he has already read and is familiar with the reestablishment of the dc multiverse,-1.0,Negative,valid,0
+1_2575,0,you don t really believe in that superstition do you,-1.0,Negative,valid,0
+1_2580,0,okay here s an idea what if i change my name and go live with my cousin and her husband avi in israel,1.0,Positive,valid,0
+1_2797,0,it s an ical download she can put it right in her phone,1.0,Positive,valid,0
+1_2819,0,you know i ve always wanted to go to a goth nightclub,1.0,Positive,valid,0
+1_2842,0,oh you know goth stuff goth magazines goth music,-1.0,Negative,valid,0
+1_2853,0,obviously waitressing at the cheese cake factory is a complex socio-economic activity that requires a great deal of analysis and planning,1.0,Positive,valid,0
+1_3064,0,when i have enough to destroy all the human toast on the battlestar known as galactica,1.0,Positive,valid,0
+1_3069,0,seems like an awful lot of trouble to go through for intercourse,-1.0,Negative,valid,0
+1_3125,0,but if she dumps you she ll have a new boyfriend by tomorrow morning and you ll have a new girlfriend when you figure out how to build one,1.0,Positive,valid,0
+1_3287,0,oh sure and while we re at it why don t we put our hands behind our backs have an old-fashioned eating contest,1.0,Positive,valid,0
+1_3293,0,leonard s work is nearly as amazing as third graders growing lima beans in wet paper towels,1.0,Positive,valid,0
+1_3333,0,okay i got a bone to pick with you,-1.0,Negative,valid,0
+1_3545,0,i understand your point but given a choice jews always go with chinese food,1.0,Positive,valid,0
+1_3599,0,why don t you keep that stuff in the bathroom,-1.0,Negative,valid,0
+1_3837,0,excuse me i m thirsty so i m going to go to the refrigerator and get myself a refreshing beverage,-1.0,Negative,valid,0
+1_3840,0,i read a study online that walking after a meal not only aids in digestion but increases serotonin and you know me if there s one thing i like more than a refreshing beverage it s serotonin bye-bye,-1.0,Negative,valid,0
+1_3842,0,so what you re just gonna walk up and down the stairs,-1.0,Negative,valid,0
+1_4031,0,in 1917 when albert einstein established the theoretic foundation for the laser in his paper <i> zur quantentheorie der</i> <i>strahlung </i> his fondest hope was that the resultant device be bitchin,1.0,Positive,valid,0
+1_4281,0,it was the kind of thing that makes it kind of hard to face her now,-1.0,Negative,valid,0
+1_4286,0,all right all right he can buy his own desk,-1.0,Negative,valid,0
+1_4290,0,i just have a question does bernadette ever talk about me,-1.0,Negative,valid,0
+1_4352,0,he does it all the time he s a cornucopia of social awkwardness,-1.0,Negative,valid,0
+1_4603,0,is it possible that she was going for your cheek and you moved and she accidentally got lip that happens with me and my mom all the time,-1.0,Negative,valid,0
+1_4743,0,oh and the science dudes want to talk science with you what do you want to talk about-- rocks dinosaurs our friend the beaver,1.0,Positive,valid,0
+1_4760,0,in the bedrooms of ten-year- old girls where they belong,1.0,Positive,valid,0
+1_4792,0,obviously we re no longer a justice league we have no choice but to switch to our muppet baby costumes,-1.0,Negative,valid,0
+1_4850,0,i understand your loyalty is admirable but what if i were to up the ante,-1.0,Negative,valid,0
+1_4995,0,hey you taught me something who would have thought it,1.0,Positive,valid,0
+1_5058,0,an entire dinner to talk about your research where you going the drive-thru at jack in the box,1.0,Positive,valid,0
+1_5156,0,that s got to be fun for you huh watching hofstadter suck the saliva out of your sister s mouth,1.0,Positive,valid,0
+1_5571,0,yes i d like a seven-day course of penicillin some uh syrup of ipecac-- to induce vomiting-- and a mint,1.0,Positive,valid,0
+1_5572,0,he drank from leonard s glass he drank from leonard s glass -- the words they ll be carving into my tombstone,1.0,Positive,valid,0
+1_5580,0,right right whereas jewish mothers take a casual la-di-da approach to their sons,1.0,Positive,valid,0
+1_5581,0,i gargled with tequila and may have swallowed a teeny bit,-1.0,Negative,valid,0
+1_5617,0,is an event that s like a heart attack,1.0,Positive,valid,0
+1_5679,0,i d like to respond to that sarcastically yes i relish the thought of a stranger covering my body with oil and rubbing it,1.0,Positive,valid,0
+1_5699,0,congratulations and welcome temporarily aboard here s your i d card your key and your lapel pin which leonard was too cool to wear,1.0,Positive,valid,0
+1_5786,0,all right so technically it s not a dinner date i suppose you could call it a uh dinfast date but if you did you d open yourself to peer-based mocking such as hey leonard how was your dinfast with priya last night,-1.0,Negative,valid,0
+1_5919,0,because you don t have a girlfriend well good lord if that becomes a reason not to play dungeons & dragons this game s in serious trouble,-1.0,Negative,valid,0
+1_5953,0,here s some other fun news on the raj/emily front he gave her a pair of diamond earrings and leased her a car,-1.0,Negative,valid,0
+1_5964,0,smart whisper so the deaf chick can t hear you,1.0,Positive,valid,0
+1_6020,0,you just got off the list would you like back on it this ll just take a moment it s on a five and a quarter inch floppy,1.0,Positive,valid,0
+1_6032,0,you see betrayal in others but not yourself,1.0,Positive,valid,0
+1_6065,0,frankly mom i m encouraged to see how advanced your group has become-- willing to sail out into the ocean without fear of falling off the edge,1.0,Positive,valid,0
+1_6113,0,so this spring i get to go to the international space station oh my word a trip to the heavens,-1.0,Negative,valid,0
+1_6134,0,no i m just allergic to people who get nobel prizes for no good reason,1.0,Positive,valid,0
+1_6165,0,yes there s nothing quite like the slightly widened eyes of mildly startled,1.0,Positive,valid,0
+1_6211,0,no you mean this was all a ruse oh how could i be so stu,-1.0,Negative,valid,0
+1_6370,0,oh of course he is she s very interesting did you know when she was 14 she severed the webbing between her own toes,1.0,Positive,valid,0
+1_6426,0,you know the holidays are just around the corner maybe he wants to see if he can lodge the other testicle up there,1.0,Positive,valid,0
+1_6472,0,you d think a winner could make a decent cup of cocoa,1.0,Positive,valid,0
+1_6504,0,oh i see why you re confused no her news sounded important but what you re forgetting is it was an achievement in the field of biology that s all about yucky squishy things,1.0,Positive,valid,0
+1_6534,0,no but maybe she wants a man with a pocket watch,-1.0,Negative,valid,0
+1_6683,0,yeah terrific the other astronauts would love to go hurtling through space with a guy named crash,1.0,Positive,valid,0
+1_6766,0,maybe that s because i m not being challenged it s the same reason einstein failed math,-1.0,Negative,valid,0
+1_6860,0,i m sorry it s the bad boy attitude that comes with this hair,-1.0,Negative,valid,0
+1_7089,0,how about you did you have a fun night yeah we uh made gift bags had wine and then went online and saw this,1.0,Positive,valid,0
+1_7186,0,not exactly listen if you don t mind i m not really up for chatting i m just going to sit here quietly and let my life flash before my eyes,-1.0,Negative,valid,0
+1_7281,0,darn if you weren t busy i d ask you to join us,1.0,Positive,valid,0
+1_7341,0,i am talking to a man in space if you don t have the (walkie-talkie static) then he might as well be at the coffee bean over on lake street,-1.0,Negative,valid,0
+1_7442,0,the original title was a rederivation of maxwell s equations regarding electromagnetism i dumbed it down because some of the more religious people in town were starting to say i was a witch,-1.0,Negative,valid,0
+1_7487,0,yeah well bernadette s a little under the weather and my mom s kind of under my dentist,-1.0,Negative,valid,0
+1_7490,0,it s okay you know we space cowboys don t do what we do for glory and fame we leave that to your rock stars and your athletes and your howie mandels,-1.0,Negative,valid,0
+1_7575,0,you re right the party s fantastic please tell me more i haven t heard enough about it all week because hearing about that never gets old,1.0,Positive,valid,0
+1_7593,0,amy i can t just ask wil wheaton to leave he s a minor celebrity once you explain who he is many people recognize him,-1.0,Negative,valid,0
+1_7641,0,she was just so sad all the time yeah i was the only person who could cheer her up well me and ben and jerry,-1.0,Negative,valid,0
+1_7661,0,yeah that was five weeks ago how much longer is he gonna milk that cow,-1.0,Negative,valid,0
+1_7722,0,exactly what it was half an hour ago it s like you re not even trying to get better,1.0,Positive,valid,0
+1_8042,0,no just me her and a couple of the big wigs it s part of a bonus she got,-1.0,Negative,valid,0
+1_8078,0,trust me you re not jewish that s how they get you,-1.0,Negative,valid,0
+1_8407,0,oh sure what a wonderful idea and after that i ll make up my own rules of oral hygiene you know instead of flossing i ll rub pudding on my gums i m going to get the number of the syfy channel and give them what for,1.0,Positive,valid,0
+1_8417,0,oh i think we were looking at creepy in the rearview mirror when i put up that camera,-1.0,Negative,valid,0
+1_8837,0,not as relieved as i m about to be it s a brave new world little lady,-1.0,Negative,valid,0
+1_9003,0,i m not going to bother him i m going to talk to him,-1.0,Negative,valid,0
+1_9009,0,- no no no i m really good at this all right give me a hint does it involve difficulty initiating a stream of anything,-1.0,Negative,valid,0
+1_9245,0,can we talk about something else do you know that i yodel,-1.0,Negative,valid,0
+1_9594,0,i can t believe we wasted all that time on our hulk costumes,-1.0,Negative,valid,0
+1_9668,0,people usually start a meeting with a joke but you go ahead-- end with one,-1.0,Negative,valid,0
+1_9971,0,i was gonna say we pick up a cake or a pie but an insult to her faith is always thoughtful,1.0,Positive,valid,0
+1_10004,0,and of those few months how long have you been a demented sex pervert,-1.0,Negative,valid,0
+1_10190,0,well now that i ve given up string theory i m struggling to find my next area of focus so in your professional opinion which of these areas do you think is the most promising,-1.0,Negative,valid,0
+1_10462,0,you know if you re really serious about that i hear there are some exciting opportunities in home care for the old and fat,1.0,Positive,valid,0
+1_10496,0,- you and oh sure and while we re at it why don t we get engaged too why don t we get a little house start a family enjoy our sunset years together do you hear yourself woman,1.0,Positive,valid,0
+1_10810,0,i ll give you a plan right now step one open comic book store step two start rumor this comic book store gives you genital warts,-1.0,Negative,valid,0
+1_10829,0,on the bright side that oxford study was right one friend down i wonder who you re going to lose next,1.0,Positive,valid,0
+1_10849,0,that s how much buying a comic book store means to me,-1.0,Negative,valid,0
+1_10859,0,i don t need a reason-- it s my house,-1.0,Negative,valid,0
+1_10977,0,let s not talk about this in front of our friends,-1.0,Negative,valid,0
+1_11046,0,wow he really went where no man has gone before,-1.0,Negative,valid,0
+1_11120,0,next time i might be in a rush it s good to have a few in the bank,-1.0,Negative,valid,0
+1_11177,0,i m listening to you snore i m wondering how i ll ever sleep without it,1.0,Positive,valid,0
+1_11224,0,and here i am in the trap you just keep talking i m gonna chew my leg off,1.0,Positive,valid,0
+1_11236,0,oh you re hardly out of the woods no you still run the risk of infection a blood clot the possibility that an inattentive surgeon let a barn spider lay eggs in your nose,-1.0,Negative,valid,0
+1_11243,0,i love that you re too good to pee in the kitchen sink,1.0,Positive,valid,0
+1_11253,0,so as they say all good things must come to an end,-1.0,Negative,valid,0
+1_11257,0,doesn t professor abbott s family want any of this stuff,-1.0,Negative,valid,0
+1_11306,0,i guess the sad truth is not everyone will accomplish something great some of us may just have to find meaning in the little moments that make up life,-1.0,Negative,valid,0
+1_11378,0,are you sure a dummy like me can handle something as complicated as a blanket,1.0,Positive,valid,0
+1_11526,0,as you may know i ve been experimenting with elevated anxiety levels and i thought what better way to increase my discomfort than to subject myself to an evening of tasteless uncensored crotch talk,-1.0,Negative,valid,0
+1_11529,0,and how difficult it is to do when she s bloated cranky and crampy,-1.0,Negative,valid,0
+1_11901,0,yeah good for you leonard that s a lovely little notion kind of like i wish i could talk to my uncle in chicago yeah now stand back while i invent the telephone hello oh hold on leonard it s your uncle he says you just got burned,1.0,Positive,valid,0
+1_11913,0,it s why my people wandered the desert for 40 years took that long to walk it off,1.0,Positive,valid,0
+1_11924,0,all right amy s in charge of pricing and being 75,1.0,Positive,valid,0
+1_12002,0,then buckle up you re in for a cranky night,-1.0,Negative,valid,0
+1_12083,0,oh just put it in your mouth and pop it like a zit,-1.0,Negative,valid,0
+1_60,0,it s just a privilege to watch your mind at work,1.0,Positive,test,0
+1_80,0,since it s not bee season you can have my epinephrine,-1.0,Negative,test,0
+1_90,0,lois lane is falling accelerating at an initial rate of 32 feet per second per second superman swoops down to save her by reaching out two arms of steel miss lane who is now traveling at approximately 120 miles an hour hits them and is immediately sliced into three equal pieces,-1.0,Negative,test,0
+1_105,0,i m just inferring this is a couch because the evidence suggests the coffee table is having a tiny garage sale,1.0,Positive,test,0
+1_162,0,sheldon if you were a robot and i knew and you didn t,-1.0,Negative,test,0
+1_175,0,if you re compiling a mix cd for a double suicide oh i hope that scratching post is for you,1.0,Positive,test,0
+1_182,0,no the dark crescent-shaped patterns under your arms conceal it nicely,1.0,Positive,test,0
+1_213,0,how s this pleased to meet you dr gablehauser how fortunate for you that the university s chosen to hire you despite the fact that you ve done no original research in 25 years and instead have written a series of popular books that reduce the great concepts of science to a series of anecdotes each one dumbed down to accommodate the duration of an average bowel movement,1.0,Positive,test,0
+1_427,0,well i m sorry too but there s just no room for you in my wallet,1.0,Positive,test,0
+1_467,0,that woman looks exactly like the pictures of princess panchali in the book how often does one see a beloved fictional character come to life,-1.0,Negative,test,0
+1_506,0,not to mention you d have to power down on saturdays,-1.0,Negative,test,0
+1_507,0,well there s always the possibility that a trash can spontaneously formed around the letter but occam s rasor would suggest that someone threw it out,1.0,Positive,test,0
+1_536,0,just the latest copy of applied particle physics quarterly,1.0,Positive,test,0
+1_672,0,do you think penny will come here and take care of us,-1.0,Negative,test,0
+1_971,0,- now - no after my tongue has swollen to the size of a brisket,1.0,Positive,test,0
+1_1003,0,good idea sit with her hold her comfort her and if the moment feels right see if you can cop a feel,1.0,Positive,test,0
+1_1144,0,notify the editors of the oxford english dictionary the word plenty has been redefined to mean two,1.0,Positive,test,0
+1_1180,0,oh please the only way she could make a contribution to science would be if they resumed sending chimps into space,1.0,Positive,test,0
+1_1189,0,i m sorry i am not going back to the renaissance fair,-1.0,Negative,test,0
+1_1262,0,you were very clear as was everyone else at the table,-1.0,Negative,test,0
+1_1296,0,they gave him an assistant if i want a new pen i have to go to the bank with wire cutters,1.0,Positive,test,0
+1_1466,0,maybe when i publish it i ll include an inhaler,1.0,Positive,test,0
+1_1478,0,sadly mrs giselle wolowitz is sensitive to chlorine lucky for her i like my fashion models pruny and bug-eyed,1.0,Positive,test,0
+1_1484,0,the big deal is that nobody touches food on my plate,-1.0,Negative,test,0
+1_1549,0,on a dusty highway just outside bakersfield where do you think on mars,1.0,Positive,test,0
+1_1560,0,how nice maybe they can carpool when they visit you in federal prison,1.0,Positive,test,0
+1_1722,0,my aunt marion gave them to me for my 12th birthday,-1.0,Negative,test,0
+1_1772,0,dave sounds like leonard s got a new bff,1.0,Positive,test,0
+1_2198,0,assuming i can keep up this pace three hours 11 minutes plus however long it takes to conclude this fairly pointless conversation,1.0,Positive,test,0
+1_2354,0,so do cocaine smugglers write cocaine on the box,1.0,Positive,test,0
+1_2423,0,provided he has already read and is familiar with the reestablishment of the dc multiverse,-1.0,Negative,test,0
+1_2575,0,you don t really believe in that superstition do you,-1.0,Negative,test,0
+1_2580,0,okay here s an idea what if i change my name and go live with my cousin and her husband avi in israel,1.0,Positive,test,0
+1_2797,0,it s an ical download she can put it right in her phone,1.0,Positive,test,0
+1_2819,0,you know i ve always wanted to go to a goth nightclub,1.0,Positive,test,0
+1_2842,0,oh you know goth stuff goth magazines goth music,-1.0,Negative,test,0
+1_2853,0,obviously waitressing at the cheese cake factory is a complex socio-economic activity that requires a great deal of analysis and planning,1.0,Positive,test,0
+1_3064,0,when i have enough to destroy all the human toast on the battlestar known as galactica,1.0,Positive,test,0
+1_3069,0,seems like an awful lot of trouble to go through for intercourse,-1.0,Negative,test,0
+1_3125,0,but if she dumps you she ll have a new boyfriend by tomorrow morning and you ll have a new girlfriend when you figure out how to build one,1.0,Positive,test,0
+1_3287,0,oh sure and while we re at it why don t we put our hands behind our backs have an old-fashioned eating contest,1.0,Positive,test,0
+1_3293,0,leonard s work is nearly as amazing as third graders growing lima beans in wet paper towels,1.0,Positive,test,0
+1_3333,0,okay i got a bone to pick with you,-1.0,Negative,test,0
+1_3545,0,i understand your point but given a choice jews always go with chinese food,1.0,Positive,test,0
+1_3599,0,why don t you keep that stuff in the bathroom,-1.0,Negative,test,0
+1_3837,0,excuse me i m thirsty so i m going to go to the refrigerator and get myself a refreshing beverage,-1.0,Negative,test,0
+1_3840,0,i read a study online that walking after a meal not only aids in digestion but increases serotonin and you know me if there s one thing i like more than a refreshing beverage it s serotonin bye-bye,-1.0,Negative,test,0
+1_3842,0,so what you re just gonna walk up and down the stairs,-1.0,Negative,test,0
+1_4031,0,in 1917 when albert einstein established the theoretic foundation for the laser in his paper <i> zur quantentheorie der</i> <i>strahlung </i> his fondest hope was that the resultant device be bitchin,1.0,Positive,test,0
+1_4281,0,it was the kind of thing that makes it kind of hard to face her now,-1.0,Negative,test,0
+1_4286,0,all right all right he can buy his own desk,-1.0,Negative,test,0
+1_4290,0,i just have a question does bernadette ever talk about me,-1.0,Negative,test,0
+1_4352,0,he does it all the time he s a cornucopia of social awkwardness,-1.0,Negative,test,0
+1_4603,0,is it possible that she was going for your cheek and you moved and she accidentally got lip that happens with me and my mom all the time,-1.0,Negative,test,0
+1_4743,0,oh and the science dudes want to talk science with you what do you want to talk about-- rocks dinosaurs our friend the beaver,1.0,Positive,test,0
+1_4760,0,in the bedrooms of ten-year- old girls where they belong,1.0,Positive,test,0
+1_4792,0,obviously we re no longer a justice league we have no choice but to switch to our muppet baby costumes,-1.0,Negative,test,0
+1_4850,0,i understand your loyalty is admirable but what if i were to up the ante,-1.0,Negative,test,0
+1_4995,0,hey you taught me something who would have thought it,1.0,Positive,test,0
+1_5058,0,an entire dinner to talk about your research where you going the drive-thru at jack in the box,1.0,Positive,test,0
+1_5156,0,that s got to be fun for you huh watching hofstadter suck the saliva out of your sister s mouth,1.0,Positive,test,0
+1_5571,0,yes i d like a seven-day course of penicillin some uh syrup of ipecac-- to induce vomiting-- and a mint,1.0,Positive,test,0
+1_5572,0,he drank from leonard s glass he drank from leonard s glass -- the words they ll be carving into my tombstone,1.0,Positive,test,0
+1_5580,0,right right whereas jewish mothers take a casual la-di-da approach to their sons,1.0,Positive,test,0
+1_5581,0,i gargled with tequila and may have swallowed a teeny bit,-1.0,Negative,test,0
+1_5617,0,is an event that s like a heart attack,1.0,Positive,test,0
+1_5679,0,i d like to respond to that sarcastically yes i relish the thought of a stranger covering my body with oil and rubbing it,1.0,Positive,test,0
+1_5699,0,congratulations and welcome temporarily aboard here s your i d card your key and your lapel pin which leonard was too cool to wear,1.0,Positive,test,0
+1_5786,0,all right so technically it s not a dinner date i suppose you could call it a uh dinfast date but if you did you d open yourself to peer-based mocking such as hey leonard how was your dinfast with priya last night,-1.0,Negative,test,0
+1_5919,0,because you don t have a girlfriend well good lord if that becomes a reason not to play dungeons & dragons this game s in serious trouble,-1.0,Negative,test,0
+1_5953,0,here s some other fun news on the raj/emily front he gave her a pair of diamond earrings and leased her a car,-1.0,Negative,test,0
+1_5964,0,smart whisper so the deaf chick can t hear you,1.0,Positive,test,0
+1_6020,0,you just got off the list would you like back on it this ll just take a moment it s on a five and a quarter inch floppy,1.0,Positive,test,0
+1_6032,0,you see betrayal in others but not yourself,1.0,Positive,test,0
+1_6065,0,frankly mom i m encouraged to see how advanced your group has become-- willing to sail out into the ocean without fear of falling off the edge,1.0,Positive,test,0
+1_6113,0,so this spring i get to go to the international space station oh my word a trip to the heavens,-1.0,Negative,test,0
+1_6134,0,no i m just allergic to people who get nobel prizes for no good reason,1.0,Positive,test,0
+1_6165,0,yes there s nothing quite like the slightly widened eyes of mildly startled,1.0,Positive,test,0
+1_6211,0,no you mean this was all a ruse oh how could i be so stu,-1.0,Negative,test,0
+1_6370,0,oh of course he is she s very interesting did you know when she was 14 she severed the webbing between her own toes,1.0,Positive,test,0
+1_6426,0,you know the holidays are just around the corner maybe he wants to see if he can lodge the other testicle up there,1.0,Positive,test,0
+1_6472,0,you d think a winner could make a decent cup of cocoa,1.0,Positive,test,0
+1_6504,0,oh i see why you re confused no her news sounded important but what you re forgetting is it was an achievement in the field of biology that s all about yucky squishy things,1.0,Positive,test,0
+1_6534,0,no but maybe she wants a man with a pocket watch,-1.0,Negative,test,0
+1_6683,0,yeah terrific the other astronauts would love to go hurtling through space with a guy named crash,1.0,Positive,test,0
+1_6766,0,maybe that s because i m not being challenged it s the same reason einstein failed math,-1.0,Negative,test,0
+1_6860,0,i m sorry it s the bad boy attitude that comes with this hair,-1.0,Negative,test,0
+1_7089,0,how about you did you have a fun night yeah we uh made gift bags had wine and then went online and saw this,1.0,Positive,test,0
+1_7186,0,not exactly listen if you don t mind i m not really up for chatting i m just going to sit here quietly and let my life flash before my eyes,-1.0,Negative,test,0
+1_7281,0,darn if you weren t busy i d ask you to join us,1.0,Positive,test,0
+1_7341,0,i am talking to a man in space if you don t have the (walkie-talkie static) then he might as well be at the coffee bean over on lake street,-1.0,Negative,test,0
+1_7442,0,the original title was a rederivation of maxwell s equations regarding electromagnetism i dumbed it down because some of the more religious people in town were starting to say i was a witch,-1.0,Negative,test,0
+1_7487,0,yeah well bernadette s a little under the weather and my mom s kind of under my dentist,-1.0,Negative,test,0
+1_7490,0,it s okay you know we space cowboys don t do what we do for glory and fame we leave that to your rock stars and your athletes and your howie mandels,-1.0,Negative,test,0
+1_7575,0,you re right the party s fantastic please tell me more i haven t heard enough about it all week because hearing about that never gets old,1.0,Positive,test,0
+1_7593,0,amy i can t just ask wil wheaton to leave he s a minor celebrity once you explain who he is many people recognize him,-1.0,Negative,test,0
+1_7641,0,she was just so sad all the time yeah i was the only person who could cheer her up well me and ben and jerry,-1.0,Negative,test,0
+1_7661,0,yeah that was five weeks ago how much longer is he gonna milk that cow,-1.0,Negative,test,0
+1_7722,0,exactly what it was half an hour ago it s like you re not even trying to get better,1.0,Positive,test,0
+1_8042,0,no just me her and a couple of the big wigs it s part of a bonus she got,-1.0,Negative,test,0
+1_8078,0,trust me you re not jewish that s how they get you,-1.0,Negative,test,0
+1_8407,0,oh sure what a wonderful idea and after that i ll make up my own rules of oral hygiene you know instead of flossing i ll rub pudding on my gums i m going to get the number of the syfy channel and give them what for,1.0,Positive,test,0
+1_8417,0,oh i think we were looking at creepy in the rearview mirror when i put up that camera,-1.0,Negative,test,0
+1_8837,0,not as relieved as i m about to be it s a brave new world little lady,-1.0,Negative,test,0
+1_9003,0,i m not going to bother him i m going to talk to him,-1.0,Negative,test,0
+1_9009,0,- no no no i m really good at this all right give me a hint does it involve difficulty initiating a stream of anything,-1.0,Negative,test,0
+1_9245,0,can we talk about something else do you know that i yodel,-1.0,Negative,test,0
+1_9594,0,i can t believe we wasted all that time on our hulk costumes,-1.0,Negative,test,0
+1_9668,0,people usually start a meeting with a joke but you go ahead-- end with one,-1.0,Negative,test,0
+1_9971,0,i was gonna say we pick up a cake or a pie but an insult to her faith is always thoughtful,1.0,Positive,test,0
+1_10004,0,and of those few months how long have you been a demented sex pervert,-1.0,Negative,test,0
+1_10190,0,well now that i ve given up string theory i m struggling to find my next area of focus so in your professional opinion which of these areas do you think is the most promising,-1.0,Negative,test,0
+1_10462,0,you know if you re really serious about that i hear there are some exciting opportunities in home care for the old and fat,1.0,Positive,test,0
+1_10496,0,- you and oh sure and while we re at it why don t we get engaged too why don t we get a little house start a family enjoy our sunset years together do you hear yourself woman,1.0,Positive,test,0
+1_10810,0,i ll give you a plan right now step one open comic book store step two start rumor this comic book store gives you genital warts,-1.0,Negative,test,0
+1_10829,0,on the bright side that oxford study was right one friend down i wonder who you re going to lose next,1.0,Positive,test,0
+1_10849,0,that s how much buying a comic book store means to me,-1.0,Negative,test,0
+1_10859,0,i don t need a reason-- it s my house,-1.0,Negative,test,0
+1_10977,0,let s not talk about this in front of our friends,-1.0,Negative,test,0
+1_11046,0,wow he really went where no man has gone before,-1.0,Negative,test,0
+1_11120,0,next time i might be in a rush it s good to have a few in the bank,-1.0,Negative,test,0
+1_11177,0,i m listening to you snore i m wondering how i ll ever sleep without it,1.0,Positive,test,0
+1_11224,0,and here i am in the trap you just keep talking i m gonna chew my leg off,1.0,Positive,test,0
+1_11236,0,oh you re hardly out of the woods no you still run the risk of infection a blood clot the possibility that an inattentive surgeon let a barn spider lay eggs in your nose,-1.0,Negative,test,0
+1_11243,0,i love that you re too good to pee in the kitchen sink,1.0,Positive,test,0
+1_11253,0,so as they say all good things must come to an end,-1.0,Negative,test,0
+1_11257,0,doesn t professor abbott s family want any of this stuff,-1.0,Negative,test,0
+1_11306,0,i guess the sad truth is not everyone will accomplish something great some of us may just have to find meaning in the little moments that make up life,-1.0,Negative,test,0
+1_11378,0,are you sure a dummy like me can handle something as complicated as a blanket,1.0,Positive,test,0
+1_11526,0,as you may know i ve been experimenting with elevated anxiety levels and i thought what better way to increase my discomfort than to subject myself to an evening of tasteless uncensored crotch talk,-1.0,Negative,test,0
+1_11529,0,and how difficult it is to do when she s bloated cranky and crampy,-1.0,Negative,test,0
+1_11901,0,yeah good for you leonard that s a lovely little notion kind of like i wish i could talk to my uncle in chicago yeah now stand back while i invent the telephone hello oh hold on leonard it s your uncle he says you just got burned,1.0,Positive,test,0
+1_11913,0,it s why my people wandered the desert for 40 years took that long to walk it off,1.0,Positive,test,0
+1_11924,0,all right amy s in charge of pricing and being 75,1.0,Positive,test,0
+1_12002,0,then buckle up you re in for a cranky night,-1.0,Negative,test,0
+1_12083,0,oh just put it in your mouth and pop it like a zit,-1.0,Negative,test,0

@@ -1,0 +1,57 @@
+11.21
+generate visualization of image with 10 boxs 
+eat 健脾丸 
+搬 微波炉 
+处理生虫花生米 
+%load_ext autoreload
+%autoreload 2
+可视化 10个边界框 13：13 完成
+整理了代码 更易读懂
+删除特征文件，即可生成边界框坐标 
+做饭
+午睡
+散步 16:44 
+这人，有精神做其他无聊的事情，没时间干正事，很无聊。
+插入wps
+添加子图标题
+卷积层1-6的消融实验图
+遇到循环引用问题 
+23:21 
+files
+--------
+    ablation.py
+    mustards.py
+    cmgcni.py
+    visualizations.py 
+    train.py
+    loggers.py
+    
+11.22 
+fig = df.plot(title = 'number of layers',figsize=(5, 4), fontsize=18,xticks=[0, 1, 2, 3, 4], ylim = [0.5, 0.7]).get_figure()
+fig.savefig('6.layers_0_4.png')
+plt.show()
+
+pandas plot 并不灵活 
+也许应该先大框架 后精进 
+
+
+without mag
+without graph (2 layers convolution layers )  
+without none cmgcni 
+bert + resnet 
+
+11月23日 
+修改子图标题。
+填充实验数据。
+Mag2
+
+跑 twitter数据集 
+11.train_twitter_CMGCNI.py
+twitterDataset.py
+cmgcni.py
+configs.py
+
+
+11月24日 
+整理代码
+分离大文件和小文件

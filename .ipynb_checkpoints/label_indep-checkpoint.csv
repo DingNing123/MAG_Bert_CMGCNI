@@ -1,0 +1,7 @@
+video_id,clip_id,text,label,annotation,mode,label_by
+1_70,0,i don t think i ll be able to stop thinking about it,1.0,Positive,train,0
+1_276,0,yeah my parents felt that naming me leonard and putting me in advanced placement classes wasn t getting me beaten up enough,1.0,Positive,train,0
+1_60,0,it s just a privilege to watch your mind at work,1.0,Positive,valid,0
+1_80,0,since it s not bee season you can have my epinephrine,-1.0,Negative,valid,0
+1_60,0,it s just a privilege to watch your mind at work,1.0,Positive,test,0
+1_80,0,since it s not bee season you can have my epinephrine,-1.0,Negative,test,0

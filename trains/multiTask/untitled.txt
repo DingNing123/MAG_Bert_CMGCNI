@@ -1,0 +1,47 @@
+def train(model,optimizer,model_save_path):
+    max_val_acc , max_val_f1, max_val_epoch, global_step = 0, 0, 0, 0
+    for i_epoch in range(num_epoch):
+        print('i_epoch:', i_epoch)
+        n_correct, n_total, loss_total = 0, 0, 0
+        for i_batch,batch in enumerate(train_dataloader):
+            global_step += 1
+            model.train()
+            optimizer.zero_grad()
+            inputs ={}
+            for key in batch.keys():
+                inputs[key] = batch[key].to(device)
+            outputs = model(inputs)
+            targets = batch['labels'].to(device)
+
+            criterion = nn.CrossEntropyLoss()
+            loss = criterion(outputs, targets)
+            loss.backward()
+            optimizer.step()
+
+            n_correct += (torch.argmax(outputs, -1) == targets).sum().item()
+            n_total += len(outputs)
+            loss_total += loss.item() * len(outputs)
+
+            train_acc = n_correct / n_total
+            train_loss = loss_total / n_total
+
+            if global_step % 1 == 0:
+                val_acc, val_f1, val_precision, val_recall = evaluate_acc_f1(valid_dataloader,model)
+                if val_acc >= max_val_acc:
+                    max_val_f1 = val_f1
+                    max_val_acc = val_acc
+                    max_val_epoch = i_epoch
+                    torch.save(model.state_dict(),model_save_path)
+                    print('save the model to {}'.format(model_save_path))
+
+        if i_epoch - max_val_epoch >= 0:
+            print('early stop')
+            break
+
+        break
+    model.load_state_dict(torch.load(model_save_path))
+    test_acc, test_f1,test_precision,test_recall = evaluate_acc_f1(test_dataloader,model)
+    print('test_acc:', test_acc)
+    print('test_f1:', test_f1)
+    print('test_precision', test_precision)
+    print('test_recall', test_recall)

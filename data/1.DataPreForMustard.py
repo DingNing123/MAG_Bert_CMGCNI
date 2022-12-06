@@ -97,7 +97,7 @@ class MDataPreLoader(Dataset):
         resnet = self.resnet.to(DEVICE)
 
         class Identity(torch.nn.Module):
-            @overrides
+            # @overrides
             def forward(self, input_):
                 return input_
 
@@ -159,8 +159,8 @@ class MDataPreLoader(Dataset):
         # pdb.set_trace()
         # use ffmpeg to extract audio
         if not os.path.exists(audio_path) :
-            cmd = 'ffmpeg -i ' + video_path + ' -f wav -vn ' + \
-                    audio_path + ' -loglevel quiet'
+            cmd = 'ffmpeg -i ' + video_path + ' -f wav -vn ' + audio_path 
+            # cmd = 'ffmpeg -i ' + video_path + ' -f wav -vn ' + audio_path + ' -loglevel quiet'
             os.system(cmd)
         # get features
         y, sr = librosa.load(audio_path)
@@ -207,19 +207,22 @@ class MDataPreLoader(Dataset):
 
     def __getitem__(self, index):
         # ding ning 0325 modified resnet 152 feature 
-        tmp_dir = os.path.join(self.working_dir, f'Self-MM-Processed/{self.df.loc[index]["video_id"]}')
+        tmp_dir = os.path.join(self.working_dir, f'mmsd_raw_data/Processed/audio/{self.df.loc[index]["video_id"]}')
+        # tmp_dir = os.path.join(self.working_dir, f'Self-MM-Processed/{self.df.loc[index]["video_id"]}')
         if not os.path.exists(tmp_dir):
             os.makedirs(tmp_dir)
         video_id, clip_id, text, label, annotation, mode, _ = self.df.loc[index]
         cur_id = video_id + '$_$' + clip_id
         # video
-        video_path = os.path.join(self.working_dir, 'utterances_final', video_id + '.mp4')
+        video_path = os.path.join(self.working_dir, 'mmsd_raw_data/utterances_final', video_id + '.mp4')
+        # video_path = os.path.join(self.working_dir, 'utterances_final', video_id + '.mp4')
         
         # dingning 0325 resnet 152 modified 
         # 参考Mustard-master代码生成2048特征 resnet152
         # 设计输入输出 
         if self.args.mode == 'runIndepResnet152':
-            frames_path = '/media/dn/newdisk/datasets/mmsd_raw_data/Processed/video/Frames/' 
+            frames_path = 'mmsd_raw_data/Processed/video/Frames/' 
+            # frames_path = '/media/dn/newdisk/datasets/mmsd_raw_data/Processed/video/Frames/' 
             frames_path = frames_path + video_id
             embedding_V = self.__getResnet152VideoEmbedding(frames_path)
             seq_V = embedding_V.shape[0]
@@ -314,7 +317,8 @@ class MDataPre():
             output_path = os.path.join(self.working_dir, 'Self-MM-Processed/featuresIndep.pkl')
         # 0322 丁宁 修改 生成 独立特征 讲话者独立设置  resnet152
         if args.mode == 'runIndepResnet152':
-            output_path = os.path.join(self.working_dir, 'Self-MM-Processed/featuresIndepResnet152.pkl')
+            output_path = os.path.join('./', 'featuresIndepResnet152_magbert.pkl')
+            # output_path = os.path.join(self.working_dir, 'Self-MM-Processed/featuresIndepResnet152.pkl')
 
         # load last point
         # 不再考虑从中间继续执行的情况,每次均重新生成,不再load last point
@@ -411,7 +415,8 @@ class MDataPre():
     
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--working_dir', type=str, default='/media/dn/newdisk/datasets/mmsd_raw_data/',
+    parser.add_argument('--working_dir', type=str, default='./',
+    # parser.add_argument('--working_dir', type=str, default='/media/dn/newdisk/datasets/mmsd_raw_data/',
                         help='path to datasets')
     # 丁宁修改20220322 规范源代码编写 
     # genLabelIndep : generate_label_csv
@@ -423,7 +428,7 @@ def parse_args():
     # --mode runIndep 生成独立 openface 709 dim 特征 
     # --mode runIndepResnet152 独立 2048 dim resnet152 
 
-    parser.add_argument('--mode', type=str, default="run", help='see source code')
+    parser.add_argument('--mode', type=str, default="runIndepResnet152", help='see source code')
     parser.add_argument('--language', type=str, default="en", help='en / cn')
     # 0322 openface to FeatureExtraction 可执行路径 
     parser.add_argument('--openface2Path', type=str, default="/media/dn/home/dn/下载/tools/OpenFace/build/bin/FeatureExtraction", help='')
@@ -479,7 +484,6 @@ def gen_label_csv(args):
         clip_id = 0
         text = dataset_json[ID]['utterance']
         text = clean_text_remove_punctuation(text)
-        # pdb.set_trace()
         label = 1.0 if dataset_json[ID]['sarcasm'] else -1.0
         annotation = 'Positive' if dataset_json[ID]['sarcasm'] else 'Negative'
         # train valid test
@@ -494,7 +498,12 @@ def gen_label_csv(args):
                 'label_by':label_by,
                 }
 
-        csv_add_one_row(label_csv, fieldnames, row)
+        # 使用4条数据测试
+        if video_id in ['1_70','1_276','1_60','1_80']:
+            csv_add_one_row(label_csv, fieldnames, row)
+        
+        # csv_add_one_row(label_csv, fieldnames, row)
+
 
     for idx, ID in enumerate(list(dataset_json.keys())[:]):
         video_id = ID
@@ -516,10 +525,10 @@ def gen_label_csv(args):
                 }
 
         if mode == 'test' : 
-            csv_add_one_row(label_csv, fieldnames, row)
+            if video_id in ['1_70','1_276','1_60','1_80']:
+                csv_add_one_row(label_csv, fieldnames, row)
+            # csv_add_one_row(label_csv, fieldnames, row)
     print(f'saved in {label_csv}')
-    exit()
-
 
 if __name__ == "__main__":
     args = parse_args()
@@ -527,7 +536,8 @@ if __name__ == "__main__":
         gen_label_csv(args)
 
     # 0315 修改 genLabelDep
-    if args.mode == 'genLabelDep':
+    elif args.mode == 'genLabelDep':
         gen_label_csv(args)
-    dp = MDataPre(args)
-    dp.run()
+    else:
+        dp = MDataPre(args)
+        dp.run()

@@ -1,0 +1,8 @@
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in Any directory named temp 
+temp/
+wandb/
+.DS_Store
+
